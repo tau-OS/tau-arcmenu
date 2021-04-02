@@ -6,13 +6,7 @@
 
 -----
 
-Hi
-
-As you will have read ArcMenu will be moving home on GitLab and EGO and have a new maintainer @AndrewZaech all information will be updated in the next few days as well as this repo going into archive mode after its final update..
-
-#### New GitLab home; https://gitlab.com/arcmenu/ArcMenu
-
-#### New EGO home; https://extensions.gnome.org/extension/3628/arcmenu/
+[Further information on ArcMenu's new location and maintainer.](https://gitlab.com/arcmenu-team/Arc-Menu/-/issues/359)
 
 You can read the full reasons why here #358 (closed)
 
