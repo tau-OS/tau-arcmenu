@@ -1,6 +1,6 @@
 # Basic Makefile
 
-UUID = arc-menu@linxgem33.com
+UUID = arcmenu@tauos.co
 BASE_MODULES = AUTHORS convenience.js COPYING extension.js helper.js metadata.json README.md utils.js 
 EXTRA_MODULES = constants.js controller.js menuButton.js menuWidgets.js placeDisplay.js prefs.js prefsWidgets.js search.js
 
@@ -15,7 +15,7 @@ ifeq ($(strip $(DESTDIR)),)
 else
 	INSTALLBASE = $(DESTDIR)/usr/share/gnome-shell/extensions
 endif
-INSTALLNAME = arc-menu@linxgem33.com
+INSTALLNAME = arcmenu@tauos.co
 
 # The command line passed variable VERSION is used to set the version string
 # in the metadata and in the generated zip-file. If no VERSION is passed, the
