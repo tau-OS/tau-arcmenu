@@ -22,6 +22,7 @@ A Dynamic, Traditional, Modern Menu for GNOME
 Features modifications for tauOS.
 
 %install
+make
 make install
 
 # Cleanup crap.
