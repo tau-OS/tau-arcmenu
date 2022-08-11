@@ -9,6 +9,7 @@ License:        GPLv2+
 URL:            https://github.com/ArcMenu/gnome-shell-extension-arcmenu
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
+BuildRequires:  make
 BuildRequires:  gettext
 BuildRequires:  sassc
 BuildRequires:  %{_bindir}/glib-compile-schemas
