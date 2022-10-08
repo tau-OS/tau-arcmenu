@@ -1,0 +1,1352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 09:13-0400\n"
+"PO-Revision-Date: 2022-05-14 19:09+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: appMenu.js:38 appMenu.js:230
+msgid "Pin to ArcMenu"
+msgstr "메뉴에 고정"
+
+#: appMenu.js:61 appMenu.js:186
+msgid "Create Desktop Shortcut"
+msgstr "바탕화면에 바로가기 만들기"
+
+#: appMenu.js:186
+msgid "Delete Desktop Shortcut"
+msgstr "바탕화면 바로가기 삭제"
+
+#: appMenu.js:194 appMenu.js:230
+msgid "Unpin from ArcMenu"
+msgstr "고정 해제"
+
+#: appMenu.js:267
+msgid "Open Folder Location"
+msgstr "폴더 위치 열기"
+
+#: constants.js:65
+msgid "Favorites"
+msgstr "즐겨찾기"
+
+#: constants.js:66 menulayouts/runner.js:92 menulayouts/tweaks/tweaks.js:721
+msgid "Frequent Apps"
+msgstr "자주 사용하는 프로그램"
+
+#: constants.js:67 menulayouts/az.js:128 menulayouts/az.js:154
+#: menulayouts/eleven.js:159 menulayouts/eleven.js:217 menuWidgets.js:1050
+msgid "All Apps"
+msgstr "모든 프로그램"
+
+#: constants.js:68 menulayouts/insider.js:156 menulayouts/plasma.js:117
+#: menulayouts/raven.js:55 menulayouts/raven.js:226 menulayouts/raven.js:275
+#: menulayouts/tweaks/tweaks.js:719 menulayouts/unity.js:37
+#: menulayouts/unity.js:290 menulayouts/unity.js:349 menulayouts/windows.js:381
+#: menuWidgets.js:716 prefs.js:3527 prefs.js:3661 utils.js:273
+msgid "Pinned Apps"
+msgstr "고정된 프로그램"
+
+#: constants.js:69 menulayouts/raven.js:297 menulayouts/unity.js:367
+#: searchProviders/recentFiles.js:26 searchProviders/recentFiles.js:27
+msgid "Recent Files"
+msgstr "최근 파일"
+
+#: constants.js:229 menulayouts/mint.js:222 menulayouts/unity.js:213
+#: prefs.js:343
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: constants.js:230 menulayouts/mint.js:223 menulayouts/unity.js:214
+#: prefs.js:342
+msgid "Lock"
+msgstr "잠그기"
+
+#: constants.js:231 prefs.js:345
+msgid "Restart"
+msgstr "다시 시작"
+
+#: constants.js:232 menulayouts/mint.js:224 menulayouts/unity.js:215
+#: prefs.js:344
+msgid "Power Off"
+msgstr "컴퓨터 끄기"
+
+#: constants.js:233 prefs.js:346
+msgid "Suspend"
+msgstr "절전"
+
+#: constants.js:234 prefs.js:347
+msgid "Hybrid Sleep"
+msgstr "하이브리드 절전"
+
+#: constants.js:235 prefs.js:348
+msgid "Hibernate"
+msgstr "최대 절전"
+
+#: constants.js:357 prefs.js:2877
+msgid "ArcMenu"
+msgstr "ArcMenu"
+
+#: constants.js:358
+msgid "Brisk"
+msgstr "Brisk"
+
+#: constants.js:359
+msgid "Whisker"
+msgstr "휘스커"
+
+#: constants.js:360
+msgid "GNOME Menu"
+msgstr "그놈 메뉴"
+
+#: constants.js:361
+msgid "Mint"
+msgstr "리눅스 민트"
+
+#: constants.js:362
+msgid "Budgie"
+msgstr "Budgie"
+
+#: constants.js:365
+msgid "Unity"
+msgstr "유니티"
+
+#: constants.js:366
+msgid "Plasma"
+msgstr "KDE Plasma"
+
+#: constants.js:367
+msgid "tognee"
+msgstr "tognee"
+
+#: constants.js:368
+msgid "Insider"
+msgstr "인사이더"
+
+#: constants.js:369
+msgid "Redmond"
+msgstr "레드몬드"
+
+#: constants.js:370
+msgid "Windows"
+msgstr "Windows"
+
+#: constants.js:371
+msgid "11"
+msgstr "11"
+
+#: constants.js:372
+msgid "a.z."
+msgstr "a.z."
+
+#: constants.js:375
+msgid "Elementary"
+msgstr "엘리멘트리"
+
+#: constants.js:376
+msgid "Chromebook"
+msgstr "Chromebook"
+
+#: constants.js:379
+msgid "Runner"
+msgstr "실행기"
+
+#: constants.js:380
+msgid "GNOME Overview"
+msgstr "그놈 오버뷰"
+
+#: constants.js:383
+msgid "Raven"
+msgstr "레이븐"
+
+#: constants.js:387
+msgid "Traditional"
+msgstr "일반적인"
+
+#: constants.js:388
+msgid "Modern"
+msgstr "현대적인"
+
+#: constants.js:389
+msgid "Touch"
+msgstr "터치"
+
+#: constants.js:390
+msgid "Launcher"
+msgstr "실행기"
+
+#: constants.js:391
+msgid "Alternative"
+msgstr "특이한"
+
+#: menuButton.js:552 menulayouts/arcmenu.js:178 menulayouts/plasma.js:167
+#: menulayouts/raven.js:166 menulayouts/redmond.js:143
+#: menulayouts/tognee.js:138 menulayouts/unity.js:149
+#: menulayouts/windows.js:119 menuWidgets.js:1505 prefs.js:318 prefs.js:332
+#: prefs.js:2672 prefs.js:3805
+msgid "ArcMenu Settings"
+msgstr "ArcMenu 설정"
+
+#: menuButton.js:556 prefs.js:2049
+msgid "General Settings"
+msgstr "일반"
+
+#: menuButton.js:557
+msgid "Menu Theming"
+msgstr "메뉴 테마"
+
+#: menuButton.js:558
+msgid "Change Menu Layout"
+msgstr "메뉴 레이아웃 변경"
+
+#: menuButton.js:559
+msgid "Layout Tweaks"
+msgstr "레이아웃 기능 개선"
+
+#: menuButton.js:560
+msgid "Customize Menu"
+msgstr "메뉴 개인화"
+
+#: menuButton.js:561 prefs.js:3526 prefs.js:3657
+msgid "Button Settings"
+msgstr "단추 설정"
+
+#: menuButton.js:564 prefs.js:2856
+msgid "About"
+msgstr "정보"
+
+#: menuButton.js:570
+msgid "Dash to Panel Settings"
+msgstr "대시 투 패널 설정"
+
+#: menulayouts/arcmenu.js:178 menulayouts/baseMenuLayout.js:475
+#: menulayouts/baseMenuLayout.js:477 menulayouts/mint.js:217
+#: menulayouts/plasma.js:167 menulayouts/raven.js:166
+#: menulayouts/redmond.js:143 menulayouts/tognee.js:138
+#: menulayouts/unity.js:149 menulayouts/unity.js:208 menulayouts/windows.js:119
+msgid "Software"
+msgstr "소프트웨어"
+
+#: menulayouts/arcmenu.js:178 menulayouts/az.js:121 menulayouts/eleven.js:150
+#: menulayouts/insider.js:58 menulayouts/mint.js:213 menulayouts/plasma.js:167
+#: menulayouts/raven.js:166 menulayouts/redmond.js:143
+#: menulayouts/tognee.js:138 menulayouts/unity.js:149 menulayouts/whisker.js:49
+#: menulayouts/windows.js:57 menulayouts/windows.js:119
+msgid "Settings"
+msgstr "설정"
+
+#: menulayouts/arcmenu.js:178 menulayouts/plasma.js:167
+#: menulayouts/raven.js:166 menulayouts/redmond.js:143
+#: menulayouts/tognee.js:138 menulayouts/unity.js:149
+#: menulayouts/windows.js:119
+msgid "Tweaks"
+msgstr "기능 개선"
+
+#: menulayouts/arcmenu.js:178 menulayouts/az.js:118 menulayouts/eleven.js:147
+#: menulayouts/insider.js:55 menulayouts/mint.js:212 menulayouts/plasma.js:167
+#: menulayouts/raven.js:166 menulayouts/redmond.js:143
+#: menulayouts/tognee.js:138 menulayouts/unity.js:149 menulayouts/windows.js:54
+#: menulayouts/windows.js:119 menuWidgets.js:1508
+msgid "Terminal"
+msgstr "터미널"
+
+#: menulayouts/arcmenu.js:178 menulayouts/plasma.js:167
+#: menulayouts/raven.js:166 menulayouts/redmond.js:143
+#: menulayouts/tognee.js:138 menulayouts/unity.js:149
+#: menulayouts/windows.js:119 menuWidgets.js:429 prefs.js:331
+msgid "Activities Overview"
+msgstr "활동 오버뷰"
+
+#: menulayouts/az.js:114 menulayouts/eleven.js:143 menulayouts/insider.js:52
+#: menulayouts/mint.js:221 menulayouts/unity.js:212 menulayouts/windows.js:51
+#: menuWidgets.js:1511
+msgid "Files"
+msgstr "파일"
+
+#: menulayouts/az.js:129 menulayouts/az.js:148 menulayouts/az.js:205
+#: menulayouts/eleven.js:160 menulayouts/eleven.js:207
+#: menulayouts/eleven.js:263
+msgid "Pinned"
+msgstr "고정됨"
+
+#: menulayouts/baseMenuLayout.js:417 menulayouts/baseMenuLayout.js:461
+#: menulayouts/mint.js:210 menulayouts/tweaks/tweaks.js:461
+#: menulayouts/tweaks/tweaks.js:530 menulayouts/unity.js:202
+#: placeDisplay.js:336 utils.js:256
+msgid "Home"
+msgstr "홈"
+
+#: menulayouts/baseMenuLayout.js:417 menulayouts/mint.js:219
+#: menulayouts/unity.js:203
+msgid "Documents"
+msgstr "문서"
+
+#: menulayouts/baseMenuLayout.js:417 menulayouts/unity.js:204
+msgid "Downloads"
+msgstr "다운로드"
+
+#: menulayouts/baseMenuLayout.js:417
+msgid "Music"
+msgstr "음악"
+
+#: menulayouts/baseMenuLayout.js:417
+msgid "Pictures"
+msgstr "사진"
+
+#: menulayouts/baseMenuLayout.js:417
+msgid "Videos"
+msgstr "비디오"
+
+#: menulayouts/baseMenuLayout.js:417 menulayouts/plasma.js:126
+#: menulayouts/unity.js:210 placeDisplay.js:125 placeDisplay.js:148
+#: prefs.js:324 prefs.js:340
+msgid "Computer"
+msgstr "컴퓨터"
+
+#: menulayouts/baseMenuLayout.js:417 menulayouts/baseMenuLayout.js:469
+#: menulayouts/plasma.js:289 menulayouts/windows.js:187 prefs.js:325
+#: prefs.js:341
+msgid "Network"
+msgstr "네트워크"
+
+#: menulayouts/eleven.js:161 menulayouts/eleven.js:183
+#: menulayouts/eleven.js:267 menulayouts/windows.js:323
+msgid "Frequent"
+msgstr "자주 사용"
+
+#: menulayouts/plasma.js:122 menuWidgets.js:1008 menuWidgets.js:2401
+msgid "Applications"
+msgstr "프로그램"
+
+#: menulayouts/plasma.js:130 menuWidgets.js:740
+msgid "Leave"
+msgstr "떠나기"
+
+#: menulayouts/plasma.js:257 menulayouts/windows.js:254 prefs.js:3529
+#: prefs.js:3684
+msgid "Application Shortcuts"
+msgstr "프로그램 바로가기"
+
+#: menulayouts/plasma.js:261 menulayouts/windows.js:258
+msgid "Places"
+msgstr "위치"
+
+#: menulayouts/plasma.js:273 menulayouts/tweaks/tweaks.js:664
+#: menulayouts/tweaks/tweaks.js:766 menulayouts/windows.js:171
+msgid "Bookmarks"
+msgstr "책갈피"
+
+#: menulayouts/plasma.js:281 menulayouts/windows.js:179
+msgid "Devices"
+msgstr "장치"
+
+#: menulayouts/plasma.js:316 menuWidgets.js:766
+msgid "Session"
+msgstr "세션"
+
+#: menulayouts/plasma.js:321 menuWidgets.js:770
+msgid "System"
+msgstr "시스템"
+
+#: menulayouts/raven.js:57 menulayouts/raven.js:233
+#: menulayouts/tweaks/tweaks.js:462 menulayouts/tweaks/tweaks.js:531
+#: menulayouts/tweaks/tweaks.js:698 menulayouts/tweaks/tweaks.js:722
+#: menulayouts/unity.js:39 menulayouts/unity.js:295
+msgid "All Programs"
+msgstr "모든 프로그램"
+
+#: menulayouts/raven.js:277 menulayouts/unity.js:351
+msgid "Shortcuts"
+msgstr "바로가기"
+
+#: menulayouts/tweaks/tweaks.js:34 menuWidgets.js:1078 menuWidgets.js:1111
+#: prefs.js:1855
+msgid "Back"
+msgstr "뒤로"
+
+#: menulayouts/tweaks/tweaks.js:119
+msgid "Mouse Click"
+msgstr "마우스 클릭"
+
+#: menulayouts/tweaks/tweaks.js:120
+msgid "Mouse Hover"
+msgstr "마우스 올려놓기"
+
+#: menulayouts/tweaks/tweaks.js:123
+msgid "Category Activation"
+msgstr "분류 활성화"
+
+#: menulayouts/tweaks/tweaks.js:146
+msgid "Round"
+msgstr "원형"
+
+#: menulayouts/tweaks/tweaks.js:147 prefs.js:2176 prefs.js:2177 prefs.js:2178
+msgid "Square"
+msgstr "사각형"
+
+#: menulayouts/tweaks/tweaks.js:149
+msgid "Avatar Icon Shape"
+msgstr "사용자 이미지 모양"
+
+#: menulayouts/tweaks/tweaks.js:164 menulayouts/tweaks/tweaks.js:783
+msgid "Bottom"
+msgstr "아래"
+
+#: menulayouts/tweaks/tweaks.js:165 menulayouts/tweaks/tweaks.js:356
+#: menulayouts/tweaks/tweaks.js:784
+msgid "Top"
+msgstr "위"
+
+#: menulayouts/tweaks/tweaks.js:168
+msgid "Searchbar Location"
+msgstr "검색 바 위치"
+
+#: menulayouts/tweaks/tweaks.js:189
+msgid "Flip Layout Horizontally"
+msgstr "레이아웃 반전"
+
+#: menulayouts/tweaks/tweaks.js:205
+msgid "Disable User Avatar"
+msgstr "사용자 이미지 끄기"
+
+#: menulayouts/tweaks/tweaks.js:222 menulayouts/tweaks/tweaks.js:259
+msgid "Disable Frequent Apps"
+msgstr "자주 사용하는 프로그램 사용 안 함"
+
+#: menulayouts/tweaks/tweaks.js:240
+msgid "Show Applications Grid"
+msgstr "프로그램 그리드 표시"
+
+#: menulayouts/tweaks/tweaks.js:273
+msgid "Disable Pinned Apps"
+msgstr "고정된 프로그램 사용 안 함"
+
+#: menulayouts/tweaks/tweaks.js:294
+msgid "Activate on Hover"
+msgstr "올려놓을 시 활성화"
+
+#: menulayouts/tweaks/tweaks.js:310
+msgid "Brisk Menu Shortcuts"
+msgstr "Brisk 메뉴 바로가기"
+
+#: menulayouts/tweaks/tweaks.js:344
+msgid "Enable Activities Overview Shortcut"
+msgstr "활동 오버뷰 바로가기 사용"
+
+#: menulayouts/tweaks/tweaks.js:357
+msgid "Centered"
+msgstr "가운데"
+
+#: menulayouts/tweaks/tweaks.js:359
+msgid "Position"
+msgstr "위치"
+
+#: menulayouts/tweaks/tweaks.js:386
+msgid "Width"
+msgstr "너비"
+
+#: menulayouts/tweaks/tweaks.js:409 prefs.js:1979
+msgid "Height"
+msgstr "높이"
+
+#: menulayouts/tweaks/tweaks.js:432 prefs.js:3226
+msgid "Font Size"
+msgstr "글꼴 크기"
+
+#: menulayouts/tweaks/tweaks.js:433 prefs.js:1116
+#, javascript-format
+msgid "%d Default Theme Value"
+msgstr "%d 기본 테마 설정값"
+
+#: menulayouts/tweaks/tweaks.js:447
+msgid "Show Frequent Apps"
+msgstr "자주 사용하는 프로그램 표시"
+
+#: menulayouts/tweaks/tweaks.js:464 menulayouts/tweaks/tweaks.js:533
+#: menulayouts/tweaks/tweaks.js:700 menulayouts/tweaks/tweaks.js:724
+msgid "Default View"
+msgstr "기본 보기"
+
+#: menulayouts/tweaks/tweaks.js:478
+msgid "Unity Layout Buttons"
+msgstr "Unity 레이아웃 단추"
+
+#: menulayouts/tweaks/tweaks.js:485
+msgid "Button Separator Position"
+msgstr "단추 분리선 위치"
+
+#: menulayouts/tweaks/tweaks.js:503 menulayouts/tweaks/tweaks.js:593
+msgid "Adjust the position of the separator in the button panel"
+msgstr "단추 패널에 있는 분리선의 위치를 조정합니다"
+
+#: menulayouts/tweaks/tweaks.js:516 menulayouts/tweaks/tweaks.js:606
+msgid "Separator Position"
+msgstr "분리선 위치"
+
+#: menulayouts/tweaks/tweaks.js:544 prefs.js:633 prefs.js:659
+msgid "Left"
+msgstr "왼쪽"
+
+#: menulayouts/tweaks/tweaks.js:545 prefs.js:635 prefs.js:661
+msgid "Right"
+msgstr "오른쪽"
+
+#: menulayouts/tweaks/tweaks.js:547
+msgid "Position on Monitor"
+msgstr "모니터 내 위치"
+
+#: menulayouts/tweaks/tweaks.js:568
+msgid "Mint Layout Shortcuts"
+msgstr "리눅스 민트 레이아웃 바로가기"
+
+#: menulayouts/tweaks/tweaks.js:575
+msgid "Shortcut Separator Position"
+msgstr "바로가기 분리선 위치"
+
+#: menulayouts/tweaks/tweaks.js:633 menulayouts/tweaks/tweaks.js:741
+msgid "Extra Shortcuts"
+msgstr "추가 바로가기"
+
+#: menulayouts/tweaks/tweaks.js:650 menulayouts/tweaks/tweaks.js:752
+msgid "External Devices"
+msgstr "외부 장치"
+
+#: menulayouts/tweaks/tweaks.js:687
+msgid "Nothing Yet!"
+msgstr "아직 없음!"
+
+#: menulayouts/tweaks/tweaks.js:697 menulayouts/tweaks/tweaks.js:720
+msgid "Categories List"
+msgstr "분류 목록"
+
+#: menulayouts/tweaks/tweaks.js:774
+msgid "Extra Categories Quick Links"
+msgstr "기타 분류 단축 링크"
+
+#: menulayouts/tweaks/tweaks.js:775
+msgid ""
+"Display quick links of extra categories on the home page\n"
+"See Customize Menu -> Extra Categories"
+msgstr ""
+
+#: menulayouts/tweaks/tweaks.js:786
+msgid "Quick Links Location"
+msgstr "빠른 링크 위치"
+
+#: menulayouts/tweaks/tweaks.js:819
+msgid "Enable Weather Widget"
+msgstr "날씨 위젯 사용"
+
+#: menulayouts/tweaks/tweaks.js:833
+msgid "Enable Clock Widget"
+msgstr "시계 위젯 사용"
+
+#: menuWidgets.js:703
+msgid "Configure Runner"
+msgstr "실행기 설정"
+
+#: menuWidgets.js:728
+msgid "Extras"
+msgstr "그 외"
+
+#: menuWidgets.js:835
+msgid "Categories"
+msgstr "분류"
+
+#: menuWidgets.js:1155
+msgid "All Applications"
+msgstr "모든 프로그램"
+
+#: menuWidgets.js:1807
+msgid "New"
+msgstr "추가됨"
+
+#: menuWidgets.js:2245
+msgid "Search…"
+msgstr "검색…"
+
+#: placeDisplay.js:49
+#, javascript-format
+msgid "Failed to launch “%s”"
+msgstr "\"%s\"(을)를 실행할 수 없습니다"
+
+#: placeDisplay.js:64
+#, javascript-format
+msgid "Failed to mount volume for “%s”"
+msgstr "\"%s\" 볼륨을 마운트하지 못했습니다"
+
+#: placeDisplay.js:210
+#, javascript-format
+msgid "Ejecting drive “%s” failed:"
+msgstr "\"%s\" 드라이브를 꺼낼 수 없음:"
+
+#: prefs.js:34 prefs.js:56
+msgid "Add More Apps"
+msgstr "더 많은 프로그램 추가"
+
+#: prefs.js:45
+msgid "Add Default User Directories"
+msgstr "기본 사용자 경로 추가"
+
+#: prefs.js:121
+msgid "Add Custom Shortcut"
+msgstr "커스텀 바로가기 추가"
+
+#: prefs.js:307
+msgid "Add to your Pinned Apps"
+msgstr "고정된 프로그램에서 추가"
+
+#: prefs.js:309
+msgid "Change Selected Pinned App"
+msgstr ""
+
+#: prefs.js:311
+msgid "Select Application Shortcuts"
+msgstr "프로그램 바로가기 선택"
+
+#: prefs.js:313
+msgid "Select Directory Shortcuts"
+msgstr "경로 바로가기 선택"
+
+#: prefs.js:326
+msgid "Recent"
+msgstr "최근"
+
+#: prefs.js:333
+msgid "Run Command..."
+msgstr "명령 실행..."
+
+#: prefs.js:334
+msgid "Show All Applications"
+msgstr "모든 프로그램 표시"
+
+#: prefs.js:451
+#, javascript-format
+msgid "%s has been pinned to ArcMenu"
+msgstr "%s(이)가 ArcMenu에 고정됨"
+
+#: prefs.js:463
+#, javascript-format
+msgid "%s has been unpinned from ArcMenu"
+msgstr "%s(이)가 ArcMenu에 고정 해제됨"
+
+#: prefs.js:496
+msgid "Add a Custom Shortcut"
+msgstr "커스텀 바로가기 추가"
+
+#: prefs.js:499
+msgid "Edit Pinned App"
+msgstr "고정된 프로그램 편집"
+
+#: prefs.js:501
+msgid "Edit Shortcut"
+msgstr "바로가기 편집"
+
+#: prefs.js:511
+msgid "Title"
+msgstr "이름"
+
+#: prefs.js:522 prefs.js:1070 prefs.js:1183
+msgid "Icon"
+msgstr "아이콘"
+
+#: prefs.js:532 prefs.js:1490
+msgid "Browse..."
+msgstr "찾기..."
+
+#: prefs.js:538 prefs.js:1495
+msgid "Select an Icon"
+msgstr "아이콘 선택"
+
+#: prefs.js:567
+msgid "Command"
+msgstr "명령"
+
+#: prefs.js:570
+msgid "Shortcut Path"
+msgstr "바로가기 경로"
+
+#: prefs.js:580 prefs.js:1017 prefs.js:1841
+msgid "Apply"
+msgstr "적용"
+
+#: prefs.js:580
+msgid "Add"
+msgstr "추가"
+
+#: prefs.js:605
+msgid "General"
+msgstr "일반"
+
+#: prefs.js:612
+msgid "Display Options"
+msgstr "표시 옵션"
+
+#: prefs.js:625
+msgid "Show Activities Button"
+msgstr "현재 활동 단추 표시"
+
+#: prefs.js:634 prefs.js:660
+msgid "Center"
+msgstr "가운데"
+
+#: prefs.js:637 prefs.js:1139
+msgid "Position in Panel"
+msgstr "패널 내 위치"
+
+#: prefs.js:667
+msgid "Menu Alignment"
+msgstr "메뉴 정렬"
+
+#: prefs.js:686
+msgid "Display ArcMenu on all Panels"
+msgstr "모든 패널에서 ArcMenu 표시"
+
+#: prefs.js:687
+msgid "Dash to Panel extension required"
+msgstr "대시 투 패널 확장이 필요합니다"
+
+#: prefs.js:703
+msgid "Always Prefer Top Panel"
+msgstr "항상 상단 패널 선호"
+
+#: prefs.js:704
+msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
+msgstr "Dash to Panel 설정의 'Keep original gnome-shell top panel'을 활성화할 시 유용합니다"
+
+#: prefs.js:717
+msgid "Hotkey Options"
+msgstr "단축키 설정"
+
+#: prefs.js:720
+msgid "Standalone Runner Menu"
+msgstr "단독 실행기 메뉴"
+
+#: prefs.js:763
+msgid "Enable a standalone Runner menu"
+msgstr "단독 실행기 메뉴 사용"
+
+#: prefs.js:778
+msgid "Open on Primary Monitor"
+msgstr "주 모니터에서 열기"
+
+#: prefs.js:785
+msgid "None"
+msgstr "없음"
+
+#: prefs.js:786
+msgid "Left Super Key"
+msgstr "왼쪽 Super 키"
+
+#: prefs.js:787
+msgid "Custom Hotkey"
+msgstr "커스텀 단축 키"
+
+#: prefs.js:790
+msgid "Menu Hotkey"
+msgstr "메뉴 단축 키"
+
+#: prefs.js:790
+msgid "Runner Hotkey"
+msgstr "실행기 단축 키"
+
+#: prefs.js:803
+msgid "Modify Hotkey"
+msgstr "단축 키 변경"
+
+#: prefs.js:808
+msgid "Current Hotkey"
+msgstr "현재 단축 키"
+
+#: prefs.js:892
+msgid "Set Custom Hotkey"
+msgstr "바로가기 키 설정"
+
+#: prefs.js:917
+msgid "Choose Modifiers"
+msgstr ""
+
+#: prefs.js:927
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: prefs.js:931
+msgid "Super"
+msgstr "Super"
+
+#: prefs.js:935
+msgid "Shift"
+msgstr "Shift"
+
+#: prefs.js:939
+msgid "Alt"
+msgstr "Alt"
+
+#: prefs.js:991
+msgid "Press any key"
+msgstr "아무 키나 누르시오"
+
+#: prefs.js:1007
+msgid "New Hotkey"
+msgstr "새 단축 키"
+
+#: prefs.js:1066
+msgid "Menu Button"
+msgstr "메뉴 단추"
+
+#: prefs.js:1071 prefs.js:1155
+msgid "Text"
+msgstr "텍스트"
+
+#: prefs.js:1072
+msgid "Icon and Text"
+msgstr "아이콘과 텍스트"
+
+#: prefs.js:1073
+msgid "Text and Icon"
+msgstr "텍스트와 아이콘"
+
+#: prefs.js:1074
+msgid "Hidden"
+msgstr "숨김"
+
+#: prefs.js:1076
+msgid "Appearance"
+msgstr "모양"
+
+#: prefs.js:1115
+msgid "Padding"
+msgstr ""
+
+#: prefs.js:1167
+msgid "Icon Settings"
+msgstr "아이콘 설정"
+
+#: prefs.js:1170
+msgid "Browse Icons"
+msgstr "아이콘 둘러보기"
+
+#: prefs.js:1206
+msgid "Icon Size"
+msgstr "아이콘 크기"
+
+#: prefs.js:1217
+msgid "Menu Button Styling"
+msgstr "메뉴 단추 스타일링"
+
+#: prefs.js:1218 prefs.js:3098
+msgid "Results may vary with third party themes"
+msgstr ""
+
+#: prefs.js:1222 prefs.js:1228 prefs.js:1234 prefs.js:3214 prefs.js:3240
+#: prefs.js:3246
+msgid "Foreground Color"
+msgstr "글씨 색상"
+
+#: prefs.js:1225 prefs.js:1228 prefs.js:3237 prefs.js:3240
+msgid "Hover"
+msgstr ""
+
+#: prefs.js:1225 prefs.js:1231 prefs.js:3211 prefs.js:3237 prefs.js:3243
+msgid "Background Color"
+msgstr "배경 색상"
+
+#: prefs.js:1231 prefs.js:1234 prefs.js:3243 prefs.js:3246
+msgid "Active"
+msgstr ""
+
+#: prefs.js:1237 prefs.js:3223
+msgid "Border Radius"
+msgstr ""
+
+#: prefs.js:1240 prefs.js:3220
+msgid "Border Width"
+msgstr ""
+
+#: prefs.js:1240
+msgid "Background colors required if set to 0"
+msgstr ""
+
+#: prefs.js:1243 prefs.js:3217
+msgid "Border Color"
+msgstr "테두리 색상"
+
+#: prefs.js:1387 prefs.js:1392
+msgid "ArcMenu Icons"
+msgstr "ArcMenu 아이콘"
+
+#: prefs.js:1415
+msgid "Distro Icons"
+msgstr "배포판 아이콘"
+
+#: prefs.js:1451 prefs.js:1484
+msgid "Custom Icon"
+msgstr "커스텀 아이콘"
+
+#: prefs.js:1582
+msgid "Legal disclaimer for Distro Icons"
+msgstr "배포판 아이콘의 법적 조항"
+
+#: prefs.js:1638
+msgid "Layouts"
+msgstr "레이아웃"
+
+#: prefs.js:1681
+msgid "Current Menu Layout"
+msgstr "현재 메뉴 레이아웃"
+
+#: prefs.js:1696
+msgid "Available Menu Layouts"
+msgstr "사용 가능한 레이아웃"
+
+#: prefs.js:1701 prefs.js:1869
+#, javascript-format
+msgid "%s Menu Layouts"
+msgstr "%s 메뉴 레이아웃"
+
+#: prefs.js:1791
+#, javascript-format
+msgid "%s Layout Tweaks"
+msgstr "%s 레이아웃 기능 개선"
+
+#: prefs.js:1943
+msgid "Menu Size"
+msgstr "메뉴 크기"
+
+#: prefs.js:1999
+msgid "Left-Panel Width"
+msgstr "왼쪽 패널 너비"
+
+#: prefs.js:2000 prefs.js:2021 prefs.js:2162
+msgid "Traditional Layouts"
+msgstr "일반적인 레이아웃"
+
+#: prefs.js:2020
+msgid "Right-Panel Width"
+msgstr "오른쪽 패널 너비"
+
+#: prefs.js:2041
+msgid "Width Offset"
+msgstr "너비 오프셋"
+
+#: prefs.js:2042
+msgid "Non-Traditional Layouts"
+msgstr "일반적이지 않은 레이아웃"
+
+#: prefs.js:2054
+msgid "Off"
+msgstr "끔"
+
+#: prefs.js:2055
+msgid "Top Centered"
+msgstr "상단 가운데"
+
+#: prefs.js:2056
+msgid "Bottom Centered"
+msgstr "하단 가운데"
+
+#: prefs.js:2058
+msgid "Override Menu Location"
+msgstr "메뉴 위치 무시"
+
+#: prefs.js:2100
+msgid "Override Menu Rise"
+msgstr ""
+
+#: prefs.js:2101
+msgid "Menu Distance from Panel and Screen Edge"
+msgstr ""
+
+#: prefs.js:2122
+msgid "Show Application Descriptions"
+msgstr "프로그램 설명 표시"
+
+#: prefs.js:2129
+msgid "Full Color"
+msgstr "컬러"
+
+#: prefs.js:2130
+msgid "Symbolic"
+msgstr "심볼릭"
+
+#: prefs.js:2132
+msgid "Category Icon Type"
+msgstr "카테고리 아이콘 타입"
+
+#: prefs.js:2133 prefs.js:2144
+msgid "Some icon themes may not include selected icon type"
+msgstr "일부 아이콘 테마에는 선택한 유형의 아이콘이 포함되지 않을 수 있습니다"
+
+#: prefs.js:2143
+msgid "Shortcuts Icon Type"
+msgstr "바로가기 아이콘 유형"
+
+#: prefs.js:2161
+msgid "Vertical Separator"
+msgstr "세로 분리선"
+
+#: prefs.js:2169
+msgid "Icon Sizes"
+msgstr "아이콘 크기"
+
+#: prefs.js:2170
+msgid "Modify the icon size of various menu elements."
+msgstr "다양한 메뉴 요소의 아이콘 크기를 조정합니다."
+
+#: prefs.js:2175 prefs.js:2224
+msgid "Default"
+msgstr "기본"
+
+#: prefs.js:2176 prefs.js:2179 prefs.js:2226
+msgid "Small"
+msgstr "작게"
+
+#: prefs.js:2177 prefs.js:2180 prefs.js:2227
+msgid "Medium"
+msgstr "보통"
+
+#: prefs.js:2178 prefs.js:2181 prefs.js:2228
+msgid "Large"
+msgstr "크게"
+
+#: prefs.js:2179 prefs.js:2180 prefs.js:2181
+msgid "Wide"
+msgstr "넓게"
+
+#: prefs.js:2183
+msgid "Grid Icons"
+msgstr "그리드 아이콘"
+
+#: prefs.js:2192
+msgid "Categories &amp; Applications"
+msgstr "카테고리 &amp; 프로그램"
+
+#: prefs.js:2194
+msgid "Buttons"
+msgstr "단추"
+
+#: prefs.js:2196
+msgid "Quick Links"
+msgstr "빠른 링크"
+
+#: prefs.js:2198 prefs.js:2662
+msgid "Misc"
+msgstr "기타"
+
+#: prefs.js:2225
+msgid "Extra Small"
+msgstr "아주 작게"
+
+#: prefs.js:2229
+msgid "Extra Large"
+msgstr "아주 크게"
+
+#: prefs.js:2271
+msgid "Disable ScrollView Fade Effects"
+msgstr "스크롤 표시 페이드 효과 사용 안 함"
+
+#: prefs.js:2287
+msgid "Disable Tooltips"
+msgstr "툴팁 사용 안 함"
+
+#: prefs.js:2303
+msgid "Alphabetize 'All Programs' Category"
+msgstr "'모든 프로그램' 분류를 가나다순으로 정렬"
+
+#: prefs.js:2319
+msgid "Show Hidden Recent Files"
+msgstr "숨겨진 최근 파일 표시"
+
+#: prefs.js:2339 prefs.js:2352
+msgid "Multi-Lined Labels"
+msgstr "여러 줄로 된 레이블"
+
+#: prefs.js:2339
+msgid "Enable/Disable multi-lined labels on large application icon layouts."
+msgstr ""
+
+#: prefs.js:2374
+msgid "Disable New Apps Tracker"
+msgstr "새 프로그램 추적기 사용 안 함"
+
+#: prefs.js:2384
+msgid "Clear All"
+msgstr "모두 삭제"
+
+#: prefs.js:2393
+msgid "Clear Apps Marked 'New'"
+msgstr "프로그램에 있는 '추가됨' 표시 삭제"
+
+#: prefs.js:2437
+msgid "Extra Search Providers"
+msgstr "기타 검색 제공자"
+
+#: prefs.js:2448
+msgid "Search for open windows across all workspaces"
+msgstr "모든 작업공간의 창 검색"
+
+#: prefs.js:2462
+msgid "Search for recent files"
+msgstr "최근 파일 검색"
+
+#: prefs.js:2470 prefs.js:3531 prefs.js:3692
+msgid "Search Options"
+msgstr "검색 옵션"
+
+#: prefs.js:2480
+msgid "Show descriptions of search results"
+msgstr "검색 결과에서 설명 표시"
+
+#: prefs.js:2495
+msgid "Highlight search result terms"
+msgstr "검색 결과 항목 강조"
+
+#: prefs.js:2514
+msgid "Max Search Results"
+msgstr "최대 검색 결과"
+
+#: prefs.js:2669
+msgid "Export or Import Settings"
+msgstr "설정 내보내기 및 불러오기"
+
+#: prefs.js:2679
+msgid "Export or Import ArcMenu Settings"
+msgstr "ArcMenu 설정을 내보내거나 불러옵니다"
+
+#: prefs.js:2680
+msgid "Importing will overwrite current settings."
+msgstr "기존 메뉴 설정을 덮어씌우고 설정을 불러옵니다."
+
+#: prefs.js:2694
+msgid "Import"
+msgstr "불러오기"
+
+#: prefs.js:2699
+msgid "Import settings"
+msgstr "설정 불러오기"
+
+#: prefs.js:2726
+msgid "Export"
+msgstr "내보내기"
+
+#: prefs.js:2731
+msgid "Export settings"
+msgstr "설정 내보내기"
+
+#: prefs.js:2750
+msgid "ArcMenu Settings Window Size"
+msgstr "ArcMenu 설정 창 크기"
+
+#: prefs.js:2766
+msgid "Window Width"
+msgstr "창 너비"
+
+#: prefs.js:2786
+msgid "Window Height"
+msgstr "창 높이"
+
+#: prefs.js:2795
+msgid "Reset all ArcMenu Settings"
+msgstr "모든 ArcMenu 설정 초기화"
+
+#: prefs.js:2801
+msgid "Reset all Settings"
+msgstr "모든 설정 초기화"
+
+#: prefs.js:2807
+msgid "Reset all settings?"
+msgstr "모든 설정을 초기화하시겠습니까?"
+
+#: prefs.js:2808
+msgid "All ArcMenu settings will be reset to the default value."
+msgstr "모든 ArcMenu 설정이 기본값으로 초기화됩니다."
+
+#: prefs.js:2884
+msgid "Application Menu Extension for GNOME"
+msgstr "그놈용 프로그램 메뉴 확장"
+
+#: prefs.js:2898
+msgid "ArcMenu Version"
+msgstr "ArcMenu 버전"
+
+#: prefs.js:2911
+msgid "Git Commit"
+msgstr "Git 커밋"
+
+#: prefs.js:2924
+msgid "GNOME Version"
+msgstr "그놈 버전"
+
+#: prefs.js:2932
+msgid "OS"
+msgstr "운영 체제"
+
+#: prefs.js:2955
+msgid "Session Type"
+msgstr "세션 유형"
+
+#: prefs.js:2972
+msgid "Credits"
+msgstr "만든 사람"
+
+#: prefs.js:3071
+msgid "Theme"
+msgstr "테마"
+
+#: prefs.js:3097
+msgid "Override Theme"
+msgstr "테마 덮어씌우기"
+
+#: prefs.js:3105
+msgid "Menu Themes"
+msgstr "메뉴 테마"
+
+#: prefs.js:3149
+msgid "Current Theme"
+msgstr "현재 테마"
+
+#: prefs.js:3177
+msgid "Save as Theme"
+msgstr "테마로 저장"
+
+#: prefs.js:3206
+msgid "Menu Styling"
+msgstr "메뉴 스타일링"
+
+#: prefs.js:3229
+msgid "Separator Color"
+msgstr "분리선 색상"
+
+#: prefs.js:3233
+msgid "Menu Items Styling"
+msgstr "메뉴 항목 스타일링"
+
+#: prefs.js:3361
+msgid "Save Theme As..."
+msgstr "다른 이름으로 테마 저장..."
+
+#: prefs.js:3372
+msgid "Theme Name"
+msgstr "테마 이름"
+
+#: prefs.js:3389
+msgid "Save Theme"
+msgstr "테마 저장"
+
+#: prefs.js:3408
+msgid "Manage Themes"
+msgstr "테마 관리"
+
+#: prefs.js:3497
+msgid "Customize"
+msgstr "커스터마이징"
+
+#: prefs.js:3514 prefs.js:3525 prefs.js:3653
+msgid "Menu Settings"
+msgstr "메뉴 설정"
+
+#: prefs.js:3528 prefs.js:3680
+msgid "Directory Shortcuts"
+msgstr "경로 바로가기"
+
+#: prefs.js:3530 prefs.js:3688
+msgid "Power Options"
+msgstr "전원 옵션"
+
+#: prefs.js:3532 prefs.js:3696
+msgid "Extra Categories"
+msgstr "추가 분류"
+
+#: prefs.js:3533 prefs.js:3700
+msgid "Fine-Tune"
+msgstr "파인-튠"
+
+#: prefs.js:3596
+#, javascript-format
+msgid "Reset all %s?"
+msgstr "%s(을)를 초기화하시겠습니까?"
+
+#: prefs.js:3597
+#, javascript-format
+msgid "All %s will be reset to the default value."
+msgstr "모든 %s(이)가 기본 설정으로 초기화됩니다."
+
+#: prefs.js:3821
+msgid "Invalid Shortcut"
+msgstr "잘못된 바로가기"
+
+#: prefsWidgets.js:255
+msgid "Modify"
+msgstr "변경"
+
+#: prefsWidgets.js:290
+msgid "Move Up"
+msgstr "위로"
+
+#: prefsWidgets.js:306
+msgid "Move Down"
+msgstr "아래로"
+
+#: prefsWidgets.js:324
+msgid "Delete"
+msgstr "삭제"
+
+#: search.js:734
+msgid "Searching..."
+msgstr "검색 중..."
+
+#: search.js:736
+msgid "No results."
+msgstr "결과가 없습니다."
+
+#: search.js:810
+#, javascript-format
+msgid "%d more"
+msgid_plural "%d more"
+msgstr[0] "%d 더"
+
+#: searchProviders/openWindows.js:26
+msgid "List of open windows across all workspaces"
+msgstr "모든 작업공간의 열린 창 목록"
+
+#: searchProviders/openWindows.js:27
+msgid "Open Windows"
+msgstr "창 열기"
+
+#: searchProviders/openWindows.js:39
+#, javascript-format
+msgid "'%s' on Workspace %d"
+msgstr ""
+
+#: searchProviders/recentFiles.js:77
+#, javascript-format
+msgid "Failed to open “%s”"
+msgstr "\"%s\"(을)를 열 수 없습니다"
+
+#: utils.js:27
+msgid "ArcMenu - Hibernate Error!"
+msgstr "ArcMenu - 최대 절전 오류!"
+
+#: utils.js:27
+msgid "System unable to hibernate."
+msgstr "시스템에서 최대 절전을 사용할 수 없습니다."
+
+#: utils.js:38
+msgid "ArcMenu - Hybrid Sleep Error!"
+msgstr "ArcMenu - 하이브리드 절전 오류!"
+
+#: utils.js:38
+msgid "System unable to hybrid sleep."
+msgstr "시스템에서 하이브리드 절전을 사용할 수 없습니다."

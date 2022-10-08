@@ -1,11 +1,11 @@
 {
-"extension-id": "arc-menu",
-"uuid": "arcmenu@tauos.co",
-"settings-schema": "org.gnome.shell.extensions.arc-menu",
-"gettext-domain": "arc-menu",
-"name": "Arc Menu",
-"description": "A Dynamic, Traditional, Modern Menu for GNOME with tauOS modifications",
-"version": 48.2,
-"shell-version": [ "3.36","3.38","40","41","42","43" ],
-"url": "https://gitlab.com/arcmenu-team/Arc-Menu"
+"extension-id": "arcmenu",
+"uuid": "arcmenu@arcmenu.com",
+"settings-schema": "org.gnome.shell.extensions.arcmenu",
+"gettext-domain": "arcmenu",
+"name": "ArcMenu",
+"description": "Application Menu Extension for GNOME",
+"version": 39,
+"shell-version": [ "42", "43" ],
+"url": "https://gitlab.com/arcmenu/ArcMenu"
 }

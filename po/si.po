@@ -1,0 +1,1450 @@
+# ආර්ක්මෙනු සිංහල භාෂා ඇසුරුම.
+# ප්‍රකාශන අයිතියකින් තොරයි. අනිසි කටයුතු සිදු නොකරන්න.
+# හෙළබස මෙම ගොනුව සඳහා බලපත්‍රයක් නිකුත් නොකරයි.
+# FIRST AUTHOR <sayuri@yalu.lk>, 2021.
+# Second AUTHOR <hasiduo@yalu.lk>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 15:56-0400\n"
+"PO-Revision-Date: 2022-08-15 15:56-0400\n"
+"Last-Translator: හසිඳු ඕෂධ <hasiduo@yalu.lk>\n"
+"Language-Team: හෙළබස සමූහය <helabasa@yalu.lk>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: appMenu.js:38 appMenu.js:230
+msgid "Pin to ArcMenu"
+msgstr "ආර්ක්මෙනු වෙත අමුණන්න"
+
+#: appMenu.js:61 appMenu.js:186
+msgid "Create Desktop Shortcut"
+msgstr "වැඩතල කෙටිමඟක් සකසන්න"
+
+#: appMenu.js:186
+msgid "Delete Desktop Shortcut"
+msgstr "වැඩතල කෙටිමඟ මකන්න"
+
+#: appMenu.js:194 appMenu.js:230
+msgid "Unpin from ArcMenu"
+msgstr "ආර්ක්මෙනු වෙතින් ගළවන්න"
+
+#: appMenu.js:267
+msgid "Open Folder Location"
+msgstr "බහාලුමේ ස්ථානය අරින්න"
+
+#: constants.js:71
+msgid "Favorites"
+msgstr "ප්‍රියතමයන්"
+
+#: constants.js:72 menulayouts/runner.js:94 settings/LayoutTweaksPage.js:746
+msgid "Frequent Apps"
+msgstr "නිරන්තර යෙදුම්"
+
+#: constants.js:73 menulayouts/az.js:128 menulayouts/az.js:130
+#: menulayouts/az.js:165 menulayouts/eleven.js:163 menulayouts/eleven.js:164
+#: menulayouts/eleven.js:223 menulayouts/redmond.js:46
+#: menulayouts/redmond.js:47 menulayouts/redmond.js:51
+msgid "All Apps"
+msgstr "සියළුම යෙදුම්"
+
+#: constants.js:74 menulayouts/insider.js:162 menulayouts/plasma.js:119
+#: menulayouts/raven.js:57 menulayouts/raven.js:226 menulayouts/raven.js:275
+#: menulayouts/unity.js:39 menulayouts/unity.js:290 menulayouts/unity.js:349
+#: menulayouts/windows.js:386 menuWidgets.js:717
+#: settings/LayoutTweaksPage.js:639 settings/LayoutTweaksPage.js:744
+#: settings/MenuSettingsPage.js:54 settings/MenuSettingsPage.js:194
+#: utils.js:255
+msgid "Pinned Apps"
+msgstr "ඇමිණූ යෙදුම්"
+
+#: constants.js:75 menulayouts/raven.js:297 menulayouts/unity.js:367
+#: searchProviders/recentFiles.js:26 searchProviders/recentFiles.js:27
+msgid "Recent Files"
+msgstr "මෑත ගොනු"
+
+#: constants.js:248 menulayouts/mint.js:224 menulayouts/unity.js:211
+#: settings/MenuSettingsPages/ListPinnedPage.js:338
+msgid "Log Out"
+msgstr "නික්මෙන්න"
+
+#: constants.js:249 menulayouts/mint.js:225 menulayouts/unity.js:212
+#: settings/MenuSettingsPages/ListPinnedPage.js:337
+msgid "Lock"
+msgstr "අගුළු දමන්න"
+
+#: constants.js:250 settings/MenuSettingsPages/ListPinnedPage.js:340
+msgid "Restart"
+msgstr "යළි අරඹන්න"
+
+#: constants.js:251 menulayouts/mint.js:226 menulayouts/unity.js:213
+#: settings/MenuSettingsPages/ListPinnedPage.js:339
+msgid "Power Off"
+msgstr "වසා දමන්න"
+
+#: constants.js:252 settings/MenuSettingsPages/ListPinnedPage.js:341
+msgid "Suspend"
+msgstr "අත්හිටුවන්න"
+
+#: constants.js:253 settings/MenuSettingsPages/ListPinnedPage.js:342
+msgid "Hybrid Sleep"
+msgstr "දෙමුහුම් නිද්‍රාව"
+
+#: constants.js:254 settings/MenuSettingsPages/ListPinnedPage.js:343
+msgid "Hibernate"
+msgstr "උදාසීන නිද්‍රාව"
+
+#: constants.js:376 settings/AboutPage.js:34
+msgid "ArcMenu"
+msgstr "ආර්ක් මෙනු"
+
+#: constants.js:377
+msgid "Brisk"
+msgstr "බ්‍රිස්ක්"
+
+#: constants.js:378
+msgid "Whisker"
+msgstr "විස්කර්"
+
+#: constants.js:379
+msgid "GNOME Menu"
+msgstr "ග්නෝම් මෙනු"
+
+#: constants.js:380
+msgid "Mint"
+msgstr "මින්ට්"
+
+#: constants.js:381
+msgid "Budgie"
+msgstr "බඩ්ගී"
+
+#: constants.js:384
+msgid "Unity"
+msgstr "යුනිටි"
+
+#: constants.js:385
+msgid "Plasma"
+msgstr "ප්ලාස්මා"
+
+#: constants.js:386
+msgid "tognee"
+msgstr "ටොග්නී"
+
+#: constants.js:387
+msgid "Insider"
+msgstr "ඉන්සයිඩර්"
+
+#: constants.js:388
+msgid "Redmond"
+msgstr "රෙඩ්මන්ඩ්"
+
+#: constants.js:389
+msgid "Windows"
+msgstr "වින්ඩෝස්"
+
+#: constants.js:390
+msgid "11"
+msgstr "11"
+
+#: constants.js:391
+msgid "a.z."
+msgstr "අ.ෆ."
+
+#: constants.js:394
+msgid "Elementary"
+msgstr "ඉලමෙන්ටරි"
+
+#: constants.js:395
+msgid "Chromebook"
+msgstr "ක්‍රෝම්බුක්"
+
+#: constants.js:398
+msgid "Runner"
+msgstr "ධාවකය"
+
+#: constants.js:399
+msgid "GNOME Overview"
+msgstr "ග්නෝම් විශ්ලේෂණය"
+
+#: constants.js:402
+msgid "Raven"
+msgstr "රාවන්"
+
+#: constants.js:406
+msgid "Traditional"
+msgstr "සාම්ප්‍රදායික"
+
+#: constants.js:407
+msgid "Modern"
+msgstr "නවීන"
+
+#: constants.js:408
+msgid "Touch"
+msgstr "ස්පර්ශ"
+
+#: constants.js:409
+msgid "Launcher"
+msgstr "දියත් කරනය"
+
+#: constants.js:410
+msgid "Alternative"
+msgstr "විකල්පය"
+
+#: menuButton.js:523 menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125 menuWidgets.js:1566 prefs.js:118
+#: settings/MenuSettingsPages/ListPinnedPage.js:313
+#: settings/MenuSettingsPages/ListPinnedPage.js:327 settings/MiscPage.js:27
+msgid "ArcMenu Settings"
+msgstr "ආර්ක් මෙනු සැකසුම්"
+
+#: menuButton.js:527 settings/MenuSettingsPages/GeneralPage.js:110
+msgid "General Settings"
+msgstr "සාමාන්‍ය සැකසුම්"
+
+#: menuButton.js:528
+msgid "Menu Theming"
+msgstr "වට්ටෝරුවේ තේමාව"
+
+#: menuButton.js:529
+msgid "Change Menu Layout"
+msgstr "වට්ටෝරුවේ පිරිසැලසුම"
+
+#: menuButton.js:530
+msgid "Layout Tweaks"
+msgstr "පිරිසැලසුම ගැඩගැන්ම"
+
+#: menuButton.js:531
+msgid "Customize Menu"
+msgstr "වට්ටෝරුව රිසිකරණය"
+
+#: menuButton.js:532 settings/MenuSettingsPage.js:53
+#: settings/MenuSettingsPage.js:190
+msgid "Button Settings"
+msgstr "බොත්තමේ සැකසුම්"
+
+#: menuButton.js:535 settings/AboutPage.js:13
+msgid "About"
+msgstr "පිළිබඳව"
+
+#: menuButton.js:541
+msgid "Dash to Panel Settings"
+msgstr "ඩෑෂ් ටු පැනල් සැකසුම්"
+
+#: menulayouts/arcmenu.js:180 menulayouts/baseMenuLayout.js:477
+#: menulayouts/baseMenuLayout.js:479 menulayouts/mint.js:219
+#: menulayouts/plasma.js:169 menulayouts/raven.js:166
+#: menulayouts/redmond.js:171 menulayouts/tognee.js:137
+#: menulayouts/unity.js:147 menulayouts/unity.js:206 menulayouts/windows.js:125
+msgid "Software"
+msgstr "මෘදුකාංග"
+
+#: menulayouts/arcmenu.js:180 menulayouts/az.js:116 menulayouts/eleven.js:149
+#: menulayouts/insider.js:60 menulayouts/mint.js:215 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147 menulayouts/whisker.js:51
+#: menulayouts/windows.js:59 menulayouts/windows.js:125
+msgid "Settings"
+msgstr "සැකසුම්"
+
+#: menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125
+msgid "Tweaks"
+msgstr "ගැඩගැන්ම"
+
+#: menulayouts/arcmenu.js:180 menulayouts/az.js:113 menulayouts/eleven.js:146
+#: menulayouts/insider.js:57 menulayouts/mint.js:214 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147 menulayouts/windows.js:56
+#: menulayouts/windows.js:125 menuWidgets.js:1569
+msgid "Terminal"
+msgstr "අග්‍රය"
+
+#: menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125 menuWidgets.js:431
+#: settings/MenuSettingsPages/ListPinnedPage.js:326
+msgid "Activities Overview"
+msgstr "දළ විශ්ලේෂණය"
+
+#: menulayouts/az.js:109 menulayouts/eleven.js:142 menulayouts/insider.js:54
+#: menulayouts/mint.js:223 menulayouts/unity.js:210 menulayouts/windows.js:53
+#: menuWidgets.js:1572
+msgid "Files"
+msgstr "ගොනු"
+
+#: menulayouts/az.js:128 menulayouts/eleven.js:163 menulayouts/redmond.js:46
+#: menulayouts/redmond.js:50 menuWidgets.js:1151 menuWidgets.js:1172
+#: settings/LayoutsPage.js:232 settings/LayoutTweaksPage.js:36
+msgid "Back"
+msgstr "ආපසු"
+
+#: menulayouts/az.js:130 menulayouts/az.js:159 menulayouts/az.js:216
+#: menulayouts/eleven.js:164 menulayouts/eleven.js:213
+#: menulayouts/eleven.js:269 menulayouts/redmond.js:47
+#: menulayouts/redmond.js:50 menulayouts/redmond.js:51
+msgid "Pinned"
+msgstr "ඇමිණූ"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/baseMenuLayout.js:463
+#: menulayouts/mint.js:212 menulayouts/unity.js:200 placeDisplay.js:336
+#: settings/LayoutTweaksPage.js:471 settings/LayoutTweaksPage.js:540
+#: utils.js:231
+msgid "Home"
+msgstr "මුල"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/mint.js:221
+#: menulayouts/unity.js:201
+msgid "Documents"
+msgstr "ලේඛන"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/unity.js:202
+msgid "Downloads"
+msgstr "බාගැනීම්"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Music"
+msgstr "සංගීත"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Pictures"
+msgstr "ඡායාරූප"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Videos"
+msgstr "දෘශ්‍යක"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/plasma.js:128
+#: menulayouts/unity.js:208 placeDisplay.js:125 placeDisplay.js:148
+#: settings/MenuSettingsPages/ListPinnedPage.js:319
+#: settings/MenuSettingsPages/ListPinnedPage.js:335
+msgid "Computer"
+msgstr "පරිගණකය"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/baseMenuLayout.js:471
+#: menulayouts/plasma.js:291 menulayouts/windows.js:193
+#: settings/MenuSettingsPages/ListPinnedPage.js:320
+#: settings/MenuSettingsPages/ListPinnedPage.js:336
+msgid "Network"
+msgstr "ජාලය"
+
+#: menulayouts/eleven.js:165 menulayouts/eleven.js:189
+#: menulayouts/eleven.js:273 menulayouts/windows.js:329
+msgid "Frequent"
+msgstr "නිරන්තර"
+
+#: menulayouts/plasma.js:124 menuWidgets.js:1081 menuWidgets.js:2471
+#: settings/MenuSettingsPages/GeneralPage.js:252
+msgid "Applications"
+msgstr "යෙදුම්"
+
+#: menulayouts/plasma.js:132
+msgid "Leave"
+msgstr "හැරයන්න"
+
+#: menulayouts/plasma.js:259 menulayouts/windows.js:260
+#: settings/MenuSettingsPage.js:56 settings/MenuSettingsPage.js:217
+msgid "Application Shortcuts"
+msgstr "යෙදුම් කෙටිමං"
+
+#: menulayouts/plasma.js:263 menulayouts/windows.js:264
+msgid "Places"
+msgstr "ස්ථාන"
+
+#: menulayouts/plasma.js:275 menulayouts/windows.js:177
+#: settings/LayoutTweaksPage.js:689 settings/LayoutTweaksPage.js:791
+msgid "Bookmarks"
+msgstr "පොත්යොමු"
+
+#: menulayouts/plasma.js:283 menulayouts/windows.js:185
+msgid "Devices"
+msgstr "උපාංග"
+
+#: menulayouts/plasma.js:318 menuWidgets.js:837
+msgid "Session"
+msgstr "වාරය"
+
+#: menulayouts/plasma.js:323 menuWidgets.js:841
+msgid "System"
+msgstr "පද්ධතිය"
+
+#: menulayouts/raven.js:59 menulayouts/raven.js:233 menulayouts/unity.js:41
+#: menulayouts/unity.js:295 settings/LayoutTweaksPage.js:472
+#: settings/LayoutTweaksPage.js:541 settings/LayoutTweaksPage.js:638
+#: settings/LayoutTweaksPage.js:723 settings/LayoutTweaksPage.js:747
+msgid "All Programs"
+msgstr "සියළුම වැඩසටහන්"
+
+#: menulayouts/raven.js:277 menulayouts/unity.js:351
+msgid "Shortcuts"
+msgstr "කෙටිමං"
+
+#: menuWidgets.js:704
+msgid "Configure Runner"
+msgstr "ධාවකය සකසන්න"
+
+#: menuWidgets.js:729
+msgid "Extras"
+msgstr "අමතර"
+
+#: menuWidgets.js:779 menuWidgets.js:795
+msgid "Power Off / Log Out"
+msgstr "වසා දමන්න / නික්මෙන්න"
+
+#: menuWidgets.js:908 settings/MenuSettingsPages/GeneralPage.js:254
+msgid "Categories"
+msgstr "ප්‍රවර්ග"
+
+#: menuWidgets.js:1216
+msgid "All Applications"
+msgstr "සියළුම යෙදුම්"
+
+#: menuWidgets.js:1868
+msgid "New"
+msgstr "නව"
+
+#: menuWidgets.js:2314
+msgid "Search…"
+msgstr "සොයන්න…"
+
+#: placeDisplay.js:49
+#, javascript-format
+msgid "Failed to launch “%s”"
+msgstr "“%s” දියත් කිරීමට අසමත් විය"
+
+#: placeDisplay.js:64
+#, javascript-format
+msgid "Failed to mount volume for “%s”"
+msgstr "“%s” සඳහා වෙළුම සවිකිරීමට අසමත්!"
+
+#: placeDisplay.js:210
+#, javascript-format
+msgid "Ejecting drive “%s” failed:"
+msgstr "“%s” ධාවකය පිටලීමට අසමත් විය:"
+
+#: prefsWidgets.js:255
+msgid "Modify"
+msgstr "සංශෝධනය"
+
+#: prefsWidgets.js:290
+msgid "Move Up"
+msgstr "ඉහළට ගෙනයන්න"
+
+#: prefsWidgets.js:306
+msgid "Move Down"
+msgstr "පහළට ගෙනයන්න"
+
+#: prefsWidgets.js:324
+msgid "Delete"
+msgstr "මකන්න"
+
+#: search.js:737
+msgid "Searching..."
+msgstr "සොයන්න..."
+
+#: search.js:739
+msgid "No results."
+msgstr "ප්‍රතිඵල නැත"
+
+#: search.js:818
+#, javascript-format
+msgid "+ %d more"
+msgstr "තවත් + %d"
+
+#: searchProviders/openWindows.js:26
+msgid "List of open windows across all workspaces"
+msgstr "සියළුම වැඩබිම් පුරා විවෘත කවුළු ලේඛනය"
+
+#: searchProviders/openWindows.js:27
+msgid "Open Windows"
+msgstr "කවුළු අරින්න"
+
+#: searchProviders/openWindows.js:39
+#, javascript-format
+msgid "'%s' on Workspace %d"
+msgstr "'%s' තිබෙන්නේ වැඩබිම %d"
+
+#: searchProviders/recentFiles.js:77
+#, javascript-format
+msgid "Failed to open “%s”"
+msgstr "“%s” ඇරීමට අසමත් විය"
+
+#: settings/GeneralPage.js:13
+msgid "General"
+msgstr "සාමාන්‍ය"
+
+#: settings/GeneralPage.js:20
+msgid "Display Options"
+msgstr "සංදර්ශන විකල්ප"
+
+#: settings/GeneralPage.js:33
+msgid "Show Activities Button"
+msgstr "ක්‍රියාකාරකම් බොත්තම පෙන්වන්න"
+
+#: settings/GeneralPage.js:41 settings/GeneralPage.js:67
+#: settings/LayoutTweaksPage.js:554
+msgid "Left"
+msgstr "වම"
+
+#: settings/GeneralPage.js:42 settings/GeneralPage.js:68
+msgid "Center"
+msgstr "මැද"
+
+#: settings/GeneralPage.js:43 settings/GeneralPage.js:69
+#: settings/LayoutTweaksPage.js:555
+msgid "Right"
+msgstr "දකුණ"
+
+#: settings/GeneralPage.js:45
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:98
+msgid "Position in Panel"
+msgstr "මඬලෙහි පිහිටුම"
+
+#: settings/GeneralPage.js:75
+msgid "Menu Alignment"
+msgstr "වට්ටෝරුව පෙළගැන්නුම"
+
+#: settings/GeneralPage.js:94
+msgid "Display ArcMenu on all Panels"
+msgstr "සෑම මඬලකම ආර්ක්මෙනු පෙන්වන්න"
+
+#: settings/GeneralPage.js:95
+msgid "Dash to Panel extension required"
+msgstr "ඩෑෂ් ටු පැනල් දිගුව වුවමනාය"
+
+#: settings/GeneralPage.js:111
+msgid "Always Prefer Top Panel"
+msgstr "සැමවිට මුදුනෙහි මඬල ප්‍රියයි"
+
+#: settings/GeneralPage.js:112
+msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
+msgstr "ඩෑෂ් ටු පැනල් සැකසුම සමඟ ප්‍රයෝජනවත්ය 'මුල් ග්නොම්-ෂෙල් මඬල මුදුනෙහි තබාගන්න'"
+
+#: settings/GeneralPage.js:125
+msgid "Hotkey Options"
+msgstr "උණුසුම් යතුරු විකල්ප"
+
+#: settings/GeneralPage.js:128
+msgid "Standalone Runner Menu"
+msgstr "අනායත්ත ධාවක වට්ටෝරුව"
+
+#: settings/GeneralPage.js:171
+msgid "Enable a standalone Runner menu"
+msgstr "අනායත්ත ධාවක වට්ටෝරුව සබල කරන්න"
+
+#: settings/GeneralPage.js:186
+msgid "Open on Primary Monitor"
+msgstr "ප්‍රාථමික දර්ශකයෙහි අරින්න"
+
+#: settings/GeneralPage.js:193
+msgid "None"
+msgstr "කිසිවක් නැත"
+
+#: settings/GeneralPage.js:194
+msgid "Left Super Key"
+msgstr "වම් අනර්ඝ යතුර"
+
+#: settings/GeneralPage.js:195
+msgid "Custom Hotkey"
+msgstr "අභිරුචි උණුසුම් යතුර"
+
+#: settings/GeneralPage.js:198
+msgid "Menu Hotkey"
+msgstr "වට්ටෝරුවෙහි උණුසුම් යතුර"
+
+#: settings/GeneralPage.js:198
+msgid "Runner Hotkey"
+msgstr "ධාවකයේ උණුසුම් යතුර"
+
+#: settings/GeneralPage.js:211
+msgid "Modify Hotkey"
+msgstr "උණුසුම් යතුර සංශෝධනය"
+
+#: settings/GeneralPage.js:216
+msgid "Current Hotkey"
+msgstr "වත්මන් උණුසුම් යතුර"
+
+#: settings/GeneralPage.js:300
+msgid "Set Custom Hotkey"
+msgstr "අභිරුචි උණුසුම් යතුරක් සකසන්න"
+
+#: settings/GeneralPage.js:325
+msgid "Choose Modifiers"
+msgstr "විකරණකාරක තෝරන්න"
+
+#: settings/GeneralPage.js:335
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: settings/GeneralPage.js:339
+msgid "Super"
+msgstr "අන්ර්ඝය"
+
+#: settings/GeneralPage.js:343
+msgid "Shift"
+msgstr "මාරුව"
+
+#: settings/GeneralPage.js:347
+msgid "Alt"
+msgstr "Alt"
+
+#: settings/GeneralPage.js:399
+msgid "Press any key"
+msgstr "ඕනෑම යතුරක් ඔබන්න"
+
+#: settings/GeneralPage.js:415
+msgid "New Hotkey"
+msgstr "නව උණුසුම් යතුර"
+
+#: settings/GeneralPage.js:425 settings/LayoutsPage.js:218
+#: settings/MenuSettingsPages/ListPinnedPage.js:575
+msgid "Apply"
+msgstr "යොදන්න"
+
+#: settings/LayoutsPage.js:15
+msgid "Layouts"
+msgstr "පිරිසැලසුම"
+
+#: settings/LayoutsPage.js:58
+msgid "Current Menu Layout"
+msgstr "වත්මන් වට්ටෝරු පිරිසැලසුම"
+
+#: settings/LayoutsPage.js:73
+msgid "Available Menu Layouts"
+msgstr "තිබෙන වට්ටෝරු පිරිසැලසුම්"
+
+#: settings/LayoutsPage.js:78 settings/LayoutsPage.js:246
+#, javascript-format
+msgid "%s Menu Layouts"
+msgstr "වට්ටෝරු පිරිසැලසුම් %s"
+
+#: settings/LayoutsPage.js:168
+#, javascript-format
+msgid "%s Layout Tweaks"
+msgstr "පිරිසැලසුම ගැඩගැන්නුම් %s"
+
+#: settings/LayoutTweaksPage.js:123
+msgid "Mouse Click"
+msgstr "වම එබීම"
+
+#: settings/LayoutTweaksPage.js:124
+msgid "Mouse Hover"
+msgstr "ඊතලය සුනංගුව"
+
+#: settings/LayoutTweaksPage.js:127
+msgid "Category Activation"
+msgstr "ප්‍රවර්ගය සක්‍රිය කිරීම"
+
+#: settings/LayoutTweaksPage.js:150
+msgid "Round"
+msgstr "රවුම්"
+
+#: settings/LayoutTweaksPage.js:151
+#: settings/MenuSettingsPages/GeneralPage.js:236
+#: settings/MenuSettingsPages/GeneralPage.js:237
+#: settings/MenuSettingsPages/GeneralPage.js:238
+msgid "Square"
+msgstr "සතරැස්"
+
+#: settings/LayoutTweaksPage.js:153
+msgid "Avatar Icon Shape"
+msgstr "ප්‍රතිරූප නිරූපකයේ හැඩය"
+
+#: settings/LayoutTweaksPage.js:168 settings/LayoutTweaksPage.js:808
+msgid "Bottom"
+msgstr "පතුළ"
+
+#: settings/LayoutTweaksPage.js:169 settings/LayoutTweaksPage.js:366
+#: settings/LayoutTweaksPage.js:809
+msgid "Top"
+msgstr "මුදුන"
+
+#: settings/LayoutTweaksPage.js:172
+msgid "Searchbar Location"
+msgstr "සෙවුම් තීරුවේ ස්ථානය"
+
+#: settings/LayoutTweaksPage.js:193
+msgid "Flip Layout Horizontally"
+msgstr "පිරිසැලසුම තිරස්ව පෙරලන්න"
+
+#: settings/LayoutTweaksPage.js:209
+msgid "Disable User Avatar"
+msgstr "ප්‍රතිරූපය අබල කරන්න"
+
+#: settings/LayoutTweaksPage.js:226 settings/LayoutTweaksPage.js:269
+msgid "Disable Frequent Apps"
+msgstr "නිරන්තර යෙදුම් අබල කරන්න"
+
+#: settings/LayoutTweaksPage.js:250
+msgid "Show Applications Grid"
+msgstr "යෙදුම් ජාලකය පෙන්වන්න"
+
+#: settings/LayoutTweaksPage.js:283
+msgid "Disable Pinned Apps"
+msgstr "ඇමිණූ යෙදුම් අබල කරන්න"
+
+#: settings/LayoutTweaksPage.js:304
+msgid "Activate on Hover"
+msgstr "සුනංගුවේදී සක්‍රිය වන්න"
+
+#: settings/LayoutTweaksPage.js:320
+msgid "Brisk Menu Shortcuts"
+msgstr "බ්‍රිස්ක් වට්ටෝරුවේ කෙටිමං"
+
+#: settings/LayoutTweaksPage.js:354
+msgid "Enable Activities Overview Shortcut"
+msgstr "ක්‍රියාකාරකම් දළ විශ්ලේෂණ කෙටිමඟ සබල කරන්න"
+
+#: settings/LayoutTweaksPage.js:367
+msgid "Centered"
+msgstr "කේන්ද්‍රගත"
+
+#: settings/LayoutTweaksPage.js:369
+msgid "Position"
+msgstr "පිහිටුම"
+
+#: settings/LayoutTweaksPage.js:396
+msgid "Width"
+msgstr "පළල"
+
+#: settings/LayoutTweaksPage.js:419
+#: settings/MenuSettingsPages/GeneralPage.js:40
+msgid "Height"
+msgstr "උස"
+
+#: settings/LayoutTweaksPage.js:442 settings/ThemingPage.js:173
+msgid "Font Size"
+msgstr "මුද්‍රණඅකුරේ ප්‍රමාණය"
+
+#: settings/LayoutTweaksPage.js:443
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:75
+#, javascript-format
+msgid "%d Default Theme Value"
+msgstr "%d පෙරනිමි තේමා අගය"
+
+#: settings/LayoutTweaksPage.js:457
+msgid "Show Frequent Apps"
+msgstr "නිරන්තර යෙදුම් පෙන්වන්න"
+
+#: settings/LayoutTweaksPage.js:474 settings/LayoutTweaksPage.js:543
+#: settings/LayoutTweaksPage.js:642 settings/LayoutTweaksPage.js:725
+#: settings/LayoutTweaksPage.js:749
+msgid "Default View"
+msgstr "පෙරනිමි දැක්ම"
+
+#: settings/LayoutTweaksPage.js:488
+msgid "Unity Layout Buttons"
+msgstr "යුනිටි පිරිසැලසුම් බොත්තම්"
+
+#: settings/LayoutTweaksPage.js:495
+msgid "Button Separator Position"
+msgstr "බොත්තම් වෙන්කරනය පිහිටුම"
+
+#: settings/LayoutTweaksPage.js:513 settings/LayoutTweaksPage.js:603
+msgid "Adjust the position of the separator in the button panel"
+msgstr "බොත්තම් මඬලෙහි වෙන්කරනයෙහි පිහිටුම සකසන්න"
+
+#: settings/LayoutTweaksPage.js:526 settings/LayoutTweaksPage.js:616
+msgid "Separator Position"
+msgstr "වෙන්කරනයේ පිහිටුම"
+
+#: settings/LayoutTweaksPage.js:557
+msgid "Position on Monitor"
+msgstr "තිරය මත පිහිටුම"
+
+#: settings/LayoutTweaksPage.js:578
+msgid "Mint Layout Shortcuts"
+msgstr "මින්ට් පිරිසැලසුමෙහි කෙටිමං"
+
+#: settings/LayoutTweaksPage.js:585
+msgid "Shortcut Separator Position"
+msgstr "කෙටිමං වෙන්කරනයේ පිහිටුම"
+
+#: settings/LayoutTweaksPage.js:658 settings/LayoutTweaksPage.js:766
+msgid "Extra Shortcuts"
+msgstr "අමතර කෙටිමං"
+
+#: settings/LayoutTweaksPage.js:675 settings/LayoutTweaksPage.js:777
+msgid "External Devices"
+msgstr "බාහිර උපාංග"
+
+#: settings/LayoutTweaksPage.js:712
+msgid "Nothing Yet!"
+msgstr "තවම කිසිවක් නැත!"
+
+#: settings/LayoutTweaksPage.js:722 settings/LayoutTweaksPage.js:745
+msgid "Categories List"
+msgstr "ප්‍රවර්ග ලේඛනය"
+
+#: settings/LayoutTweaksPage.js:799
+msgid "Extra Categories Quick Links"
+msgstr "අමතර ප්‍රවර්ග ඉක්මන් සබැඳි"
+
+#: settings/LayoutTweaksPage.js:800
+msgid ""
+"Display quick links of extra categories on the home page\n"
+"See Customize Menu -> Extra Categories"
+msgstr "මුල් පිටුවෙහි අමතර ප්‍රවර්ගවල ඉක්මන් සබැඳි පෙන්වන්න\n"
+"අභිරුචිකරණ වට්ටෝරුව බලන්න -> අමතර ප්‍රවර්ග"
+
+#: settings/LayoutTweaksPage.js:811
+msgid "Quick Links Location"
+msgstr "ඉක්මන් සබැඳි ස්ථානය"
+
+#: settings/LayoutTweaksPage.js:844
+msgid "Enable Weather Widget"
+msgstr "කාලගුණ කුඩානිමැවුම සබල කරන්න"
+
+#: settings/LayoutTweaksPage.js:858
+msgid "Enable Clock Widget"
+msgstr "ඔරලෝසු කුඩානිමැවුම සබල කරන්න"
+
+#: settings/ThemingPage.js:18
+msgid "Theme"
+msgstr "තේමාව"
+
+#: settings/ThemingPage.js:44
+msgid "Override Theme"
+msgstr "තේමාව අභිබවන්න"
+
+#: settings/ThemingPage.js:45
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:177
+msgid "Results may vary with third party themes"
+msgstr "තෙවන පාර්ශ්ව තේමා සමඟ ප්‍රතිඵල විවිධ වීමට හැකිය"
+
+#: settings/ThemingPage.js:52
+msgid "Menu Themes"
+msgstr "වට්ටෝරු තේමා"
+
+#: settings/ThemingPage.js:96
+msgid "Current Theme"
+msgstr "වත්මන් තේමාව"
+
+#: settings/ThemingPage.js:124
+msgid "Save as Theme"
+msgstr "තේමාවක් ලෙස සුරකින්න"
+
+#: settings/ThemingPage.js:153
+msgid "Menu Styling"
+msgstr "වට්ටෝරුව අලංකරණය"
+
+#: settings/ThemingPage.js:158 settings/ThemingPage.js:184
+#: settings/ThemingPage.js:190
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:184
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:190
+msgid "Background Color"
+msgstr "පසුබිමෙහි පාට"
+
+#: settings/ThemingPage.js:161 settings/ThemingPage.js:187
+#: settings/ThemingPage.js:193
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:181
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:187
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:193
+msgid "Foreground Color"
+msgstr "පෙරබිමෙහි පාට"
+
+#: settings/ThemingPage.js:164
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:202
+msgid "Border Color"
+msgstr "දාරයෙහි පාට"
+
+#: settings/ThemingPage.js:167
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:199
+msgid "Border Width"
+msgstr "දාරයෙහි පළල"
+
+#: settings/ThemingPage.js:170
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:196
+msgid "Border Radius"
+msgstr "දාරයෙහි අරය"
+
+#: settings/ThemingPage.js:176
+msgid "Separator Color"
+msgstr "වෙන්කරන පාට"
+
+#: settings/ThemingPage.js:180
+msgid "Menu Items Styling"
+msgstr "වට්ටෝරුවෙහි අංග අලංකරණය"
+
+#: settings/ThemingPage.js:184 settings/ThemingPage.js:187
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:184
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:187
+msgid "Hover"
+msgstr "සුනංගුව"
+
+#: settings/ThemingPage.js:190 settings/ThemingPage.js:193
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:190
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:193
+msgid "Active"
+msgstr "ක්‍රියාත්මක"
+
+#: settings/ThemingDialog.js:14
+msgid "Manage Themes"
+msgstr "තේමා කළමනාකරණය"
+
+#: settings/ThemingDialog.js:101
+msgid "Save Theme As..."
+msgstr "...ලෙස තේමාව සුරකින්න"
+
+#: settings/ThemingDialog.js:112
+msgid "Theme Name"
+msgstr "තේමාවේ නම"
+
+#: settings/ThemingDialog.js:129
+msgid "Save Theme"
+msgstr "තේමාව සුරකින්න"
+
+#: settings/MenuSettingsPage.js:22
+msgid "Customize"
+msgstr "අභිරුචිකරණය"
+
+#: settings/MenuSettingsPage.js:39 settings/MenuSettingsPage.js:52
+#: settings/MenuSettingsPage.js:186
+msgid "Menu Settings"
+msgstr "වට්ටෝරුවෙහි සැකසුම්"
+
+#: settings/MenuSettingsPage.js:55 settings/MenuSettingsPage.js:213
+msgid "Directory Shortcuts"
+msgstr "නාමාවලි කෙටිමං"
+
+#: settings/MenuSettingsPage.js:57 settings/MenuSettingsPage.js:221
+msgid "Power Options"
+msgstr "බල විකල්ප"
+
+#: settings/MenuSettingsPage.js:58 settings/MenuSettingsPage.js:225
+#: settings/MenuSettingsPages/SearchOptionsPage.js:61
+msgid "Search Options"
+msgstr "සෙවුම් විකල්ප"
+
+#: settings/MenuSettingsPage.js:59 settings/MenuSettingsPage.js:229
+msgid "Extra Categories"
+msgstr "අමතර ප්‍රවර්ග"
+
+#: settings/MenuSettingsPage.js:60 settings/MenuSettingsPage.js:233
+msgid "Fine-Tune"
+msgstr "සියුම්ව සැකසීම"
+
+#: settings/MenuSettingsPage.js:95
+msgid "View Sidebar"
+msgstr "පැතිතීරුව බලන්න"
+
+#: settings/MenuSettingsPage.js:113
+msgid "Reset settings"
+msgstr "සැකසුම් යළි සකසන්න"
+
+#: settings/MenuSettingsPage.js:122
+#, javascript-format
+msgid "Reset all %s?"
+msgstr "%s සියල්ල යළි සකසන්නද?"
+
+#: settings/MenuSettingsPage.js:123
+#, javascript-format
+msgid "All %s will be reset to the default value."
+msgstr "%s සියල්ල පෙරනිමි අගයට සැකසෙනු ඇත"
+
+#: settings/MenuSettingsPage.js:145
+msgid "Next Page"
+msgstr "ඊළඟ පිටුව"
+
+#: settings/MenuSettingsPage.js:157
+msgid "Previous Page"
+msgstr "කලින් පිටුව"
+
+#: settings/MenuSettingsPages/GeneralPage.js:22
+msgid "Menu Size"
+msgstr "වට්ටෝරුවෙහි තරම"
+
+#: settings/MenuSettingsPages/GeneralPage.js:60
+msgid "Left-Panel Width"
+msgstr "වම්-මඬලෙහි පළල"
+
+#: settings/MenuSettingsPages/GeneralPage.js:61
+#: settings/MenuSettingsPages/GeneralPage.js:82
+#: settings/MenuSettingsPages/GeneralPage.js:222
+msgid "Traditional Layouts"
+msgstr "සාම්ප්‍රදායික පිරිසැලසුම්"
+
+#: settings/MenuSettingsPages/GeneralPage.js:81
+msgid "Right-Panel Width"
+msgstr "දකුණු-මඬලෙහි පළල"
+
+#: settings/MenuSettingsPages/GeneralPage.js:102
+msgid "Width Offset"
+msgstr "පළල අනුලම්බය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:103
+msgid "Non-Traditional Layouts"
+msgstr "සාම්ප්‍රදායික නොවන පිරිසැලසුම්"
+
+#: settings/MenuSettingsPages/GeneralPage.js:115
+msgid "Off"
+msgstr "අක්‍රිය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:116
+msgid "Top Centered"
+msgstr "මුදුනෙහි මැදට"
+
+#: settings/MenuSettingsPages/GeneralPage.js:117
+msgid "Bottom Centered"
+msgstr "පතුලෙහි මැදට"
+
+#: settings/MenuSettingsPages/GeneralPage.js:119
+msgid "Override Menu Location"
+msgstr "වට්ටෝරුවෙහි ස්ථානය අභිබවන්න"
+
+#: settings/MenuSettingsPages/GeneralPage.js:160
+msgid "Override Menu Rise"
+msgstr "වට්ටෝරුව නැඟීම අභිබවන්න"
+
+#: settings/MenuSettingsPages/GeneralPage.js:161
+msgid "Menu Distance from Panel and Screen Edge"
+msgstr "මඬල හා තිරයේ අයින අතර පරතරය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:182
+msgid "Show Application Descriptions"
+msgstr "යෙදුමේ විස්තර පෙන්වන්න"
+
+#: settings/MenuSettingsPages/GeneralPage.js:189
+msgid "Full Color"
+msgstr "පූර්ණ වර්ණය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:190
+msgid "Symbolic"
+msgstr "සංකේතාත්මක"
+
+#: settings/MenuSettingsPages/GeneralPage.js:192
+msgid "Category Icon Type"
+msgstr "ප්‍රවර්ග නිරූපක වර්ගය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:193
+#: settings/MenuSettingsPages/GeneralPage.js:204
+msgid "Some icon themes may not include selected icon type"
+msgstr "සමහර නිරූපක තේමාවල තෝරාගත් නිරූපක වර්ගය ඇතුළත් නොවිය හැකිය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:203
+msgid "Shortcuts Icon Type"
+msgstr "කෙටිමං නිරූපක වර්ගය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:221
+msgid "Vertical Separator"
+msgstr "සිරස් වෙන්කරනය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:229
+msgid "Icon Sizes"
+msgstr "නිරූපකයේ ප්‍රමාණ"
+
+#: settings/MenuSettingsPages/GeneralPage.js:230
+msgid "Modify the icon size of various menu elements."
+msgstr "විවිධ වට්ටෝරු අංගවල නිරූපකයේ තරම සංශෝධනය"
+
+#: settings/MenuSettingsPages/GeneralPage.js:235
+#: settings/MenuSettingsPages/GeneralPage.js:287
+#: settings/MenuSettingsPages/ListOtherPage.js:42
+msgid "Default"
+msgstr "පෙරනිමි"
+
+#: settings/MenuSettingsPages/GeneralPage.js:236
+#: settings/MenuSettingsPages/GeneralPage.js:239
+#: settings/MenuSettingsPages/GeneralPage.js:289
+msgid "Small"
+msgstr "කුඩා"
+
+#: settings/MenuSettingsPages/GeneralPage.js:237
+#: settings/MenuSettingsPages/GeneralPage.js:240
+#: settings/MenuSettingsPages/GeneralPage.js:290
+msgid "Medium"
+msgstr "මධ්‍යම"
+
+#: settings/MenuSettingsPages/GeneralPage.js:238
+#: settings/MenuSettingsPages/GeneralPage.js:241
+#: settings/MenuSettingsPages/GeneralPage.js:291
+msgid "Large"
+msgstr "විශාල"
+
+#: settings/MenuSettingsPages/GeneralPage.js:239
+#: settings/MenuSettingsPages/GeneralPage.js:240
+#: settings/MenuSettingsPages/GeneralPage.js:241
+msgid "Wide"
+msgstr "පුළුල්"
+
+#: settings/MenuSettingsPages/GeneralPage.js:243
+msgid "Grid Icons"
+msgstr "ජාලක නිරූපක"
+
+#: settings/MenuSettingsPages/GeneralPage.js:256
+msgid "Buttons"
+msgstr "බොත්තම්"
+
+#: settings/MenuSettingsPages/GeneralPage.js:258
+msgid "Quick Links"
+msgstr "ඉක්මන් සබැඳි"
+
+#: settings/MenuSettingsPages/GeneralPage.js:260 settings/MiscPage.js:17
+msgid "Misc"
+msgstr "වෙනත්"
+
+#: settings/MenuSettingsPages/GeneralPage.js:288
+msgid "Extra Small"
+msgstr "ඉතා කුඩා"
+
+#: settings/MenuSettingsPages/GeneralPage.js:292
+msgid "Extra Large"
+msgstr "ඉතා විශාල"
+
+#: settings/MenuSettingsPages/GeneralPage.js:295
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:33
+msgid "Hidden"
+msgstr "සැඟවුණු"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:25
+msgid "Menu Button"
+msgstr "වට්ටෝරු බොත්තම"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:29
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:142
+#: settings/MenuSettingsPages/ListPinnedPage.js:517
+msgid "Icon"
+msgstr "නිරූපකය"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:30
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:114
+msgid "Text"
+msgstr "පෙළ"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:31
+msgid "Icon and Text"
+msgstr "නිරූපකය හා පෙළ"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:32
+msgid "Text and Icon"
+msgstr "පෙළ හා නිරූපකය"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:35
+msgid "Appearance"
+msgstr "පෙනුම"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:74
+msgid "Padding"
+msgstr "පිරවීම"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:126
+msgid "Icon Settings"
+msgstr "නිරූපකයේ සැකසුම්"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:129
+msgid "Browse Icons"
+msgstr "නිරූපක පිරික්සන්න"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:165
+msgid "Icon Size"
+msgstr "නිරූපකයේ තරම"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:176
+msgid "Menu Button Styling"
+msgstr "වට්ටෝරු බොත්තම අලංකරණය"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:199
+msgid "Background colors required if set to 0"
+msgstr "0 ලෙස සැකසුවහොත් පසුබිම් පාට වුවමනාය"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:346
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:351
+msgid "ArcMenu Icons"
+msgstr "ආර්ක්මෙනු නිරූපක"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:374
+msgid "Distro Icons"
+msgstr "බෙදාහැරීම් නිරූපක"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:410
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:443
+msgid "Custom Icon"
+msgstr "අභිරුචි නිරූපක"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:449
+#: settings/MenuSettingsPages/ListPinnedPage.js:527
+msgid "Browse..."
+msgstr "පිරික්සන්න..."
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:454
+#: settings/MenuSettingsPages/ListPinnedPage.js:533
+msgid "Select an Icon"
+msgstr "නිරූපකයක් තෝරන්න"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:541
+msgid "Legal disclaimer for Distro Icons"
+msgstr "බෙදාහැරීමේ නිරූපක සඳහා නීතිමය වියාචනය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:29
+#: settings/MenuSettingsPages/ListPinnedPage.js:51
+msgid "Add More Apps"
+msgstr "තවත් යෙදුම් යොදන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:40
+msgid "Add Default User Directories"
+msgstr "පෙරනිමි පරිශීලක ශබ්දකෝෂ යොදන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:116
+msgid "Add Custom Shortcut"
+msgstr "අභිරුචි කෙටිමඟ යොදන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:302
+msgid "Add to your Pinned Apps"
+msgstr "ඇමිණූ යෙදුම්වලට යොදන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:304
+msgid "Change Selected Pinned App"
+msgstr "තේරූ ඇමිණූ යෙදුම් සංශෝධනය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:306
+msgid "Select Application Shortcuts"
+msgstr "යෙදුම් කෙටිමං තෝරන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:308
+msgid "Select Directory Shortcuts"
+msgstr "නාමාවලි කෙටිමං තෝරන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:321
+msgid "Recent"
+msgstr "මෑත"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:328
+msgid "Run Command..."
+msgstr "විධානයක් ධාවනය..."
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:329
+msgid "Show All Applications"
+msgstr "සියළුම යෙදුම් පෙන්වන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:446
+#, javascript-format
+msgid "%s has been pinned to ArcMenu"
+msgstr "ආර්ක්මෙනු වෙත %s අමුණා ඇත"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:458
+#, javascript-format
+msgid "%s has been unpinned from ArcMenu"
+msgstr "ආර්ක්මෙනු වෙතින් %s ගළවා ඇත"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:491
+msgid "Add a Custom Shortcut"
+msgstr "අභිරුචි කෙටිමඟක් යොදන්න"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:494
+msgid "Edit Pinned App"
+msgstr "ඇමිණූ යෙදුම සංස්කරණය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:496
+msgid "Edit Shortcut"
+msgstr "කෙටිමඟ සංස්කරණය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:506
+msgid "Title"
+msgstr "සිරැසිය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:562
+msgid "Command"
+msgstr "විධානය"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:565
+msgid "Shortcut Path"
+msgstr "කෙටිමඟෙහි පෙත"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:575
+msgid "Add"
+msgstr "එකතු"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:39
+msgid "Power Off / Log Out Buttons"
+msgstr "වසා දැමීම / නික්මීම බොත්තම්"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:43
+msgid "In-Line"
+msgstr "එක්-තල"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:44
+msgid "Sub Menu"
+msgstr "අනු වට්ටෝරුව"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:46
+msgid "Display Style"
+msgstr "සංදර්ශන පිරිසැලසුම"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:28
+msgid "Extra Search Providers"
+msgstr "අමතර සෙවුම් යන්ත්‍ර"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:39
+msgid "Search for open windows across all workspaces"
+msgstr "සියළු වැඩබිම් පුරා විවෘත කවුළු සඳහා සොයන්න"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:53
+msgid "Search for recent files"
+msgstr "මෑත ගොනු සඳහා සොයන්න"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:71
+msgid "Show descriptions of search results"
+msgstr "සෙවුම් ප්‍රතිඵලවල සවිස්තර පෙන්වන්න"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:86
+msgid "Highlight search result terms"
+msgstr "සෙවුම් ප්‍රතිඵල පද ත්‍රීවාලෝකය"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:105
+msgid "Max Search Results"
+msgstr "උපරිම සෙවුම් ප්‍රතිඵල"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:148
+msgid "Search Box Border Radius"
+msgstr "සෙවුම් පෙට්ටියේ දාරයේ අරය"
+
+#: settings/MenuSettingsPages/FineTunePage.js:37
+msgid "Disable ScrollView Fade Effects"
+msgstr "අනුචලන දැක්ම මැලවීම අබල කරන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:53
+msgid "Disable Tooltips"
+msgstr "මෙවලම් ඉඟි අබල කරන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:69
+msgid "Alphabetize 'All Programs' Category"
+msgstr "'සියළුම වැඩසටහන්' ප්‍රවර්ගය අකාරාදීව"
+
+#: settings/MenuSettingsPages/FineTunePage.js:85
+msgid "Show Hidden Recent Files"
+msgstr "සැඟවුණු මෑත ගොනු පෙන්වන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:105
+#: settings/MenuSettingsPages/FineTunePage.js:118
+msgid "Multi-Lined Labels"
+msgstr "බහු-රේඛා නම්පත්"
+
+#: settings/MenuSettingsPages/FineTunePage.js:105
+msgid "Enable/Disable multi-lined labels on large application icon layouts."
+msgstr "විශාල යෙදුම් නිරූපක පිරිසැලසුම්වල බහු-රේඛා නම්පත් සබල/අබල කරන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:140
+msgid "Disable New Apps Tracker"
+msgstr "නව යෙදුම් ලුහුබැඳීම නවත්වන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:150
+msgid "Clear All"
+msgstr "සියල්ල මකන්න"
+
+#: settings/MenuSettingsPages/FineTunePage.js:159
+msgid "Clear Apps Marked 'New'"
+msgstr "'නව' යන්න යෙදීම් මකන්න"
+
+#: settings/MiscPage.js:24
+msgid "Export or Import Settings"
+msgstr "සැකසුම් නිර්යාතය හෝ ආයාතය"
+
+#: settings/MiscPage.js:34
+msgid "Export or Import ArcMenu Settings"
+msgstr "සියළුම ආර්ක්මෙනු සැකසුම් නිර්යාතය හෝ ආයාතය"
+
+#: settings/MiscPage.js:35
+msgid "Importing will overwrite current settings."
+msgstr "අයාත කිරීම වත්මන් සැකසුම් සංශෝධනය කරයි"
+
+#: settings/MiscPage.js:49
+msgid "Import"
+msgstr "ආයාත කරන්න"
+
+#: settings/MiscPage.js:54
+msgid "Import settings"
+msgstr "සැකසුම් ආයාතය"
+
+#: settings/MiscPage.js:81
+msgid "Export"
+msgstr "නිර්යාත කරන්න"
+
+#: settings/MiscPage.js:86
+msgid "Export settings"
+msgstr "සැකසුම් නිර්යාතය"
+
+#: settings/MiscPage.js:105
+msgid "ArcMenu Settings Window Size"
+msgstr "ආර්ක්මෙනු සැකසුම් කවුළුවේ ප්‍රමාණය"
+
+#: settings/MiscPage.js:121
+msgid "Window Width"
+msgstr "කවුළුවේ පළල"
+
+#: settings/MiscPage.js:141
+msgid "Window Height"
+msgstr "කවුළුවේ උස"
+
+#: settings/MiscPage.js:150
+msgid "Reset all ArcMenu Settings"
+msgstr "සියළුම ආර්ක්මෙනු සැකසුම් යළි සකසන්න"
+
+#: settings/MiscPage.js:156
+msgid "Reset all Settings"
+msgstr "යළි සකසන්න"
+
+#: settings/MiscPage.js:162
+msgid "Reset all settings?"
+msgstr "සියළුම සැකසුම් යළි සකසන්න ද?"
+
+#: settings/MiscPage.js:163
+msgid "All ArcMenu settings will be reset to the default value."
+msgstr "සියළුම ආර්ක් මෙනු සැකසුම් පෙරනිමි අගයන් වලට සැකසෙනු ඇත"
+
+#: settings/AboutPage.js:41
+msgid "Application Menu Extension for GNOME"
+msgstr "ග්නෝම් සඳහා යෙදුම් වට්ටෝරු දිගුව"
+
+#: settings/AboutPage.js:55
+msgid "ArcMenu Version"
+msgstr "ආර්ක් මෙනු අනුවාදය"
+
+#: settings/AboutPage.js:68
+msgid "Git Commit"
+msgstr "ගිට්"
+
+#: settings/AboutPage.js:81
+msgid "GNOME Version"
+msgstr "ග්නෝම් අනුවාදය"
+
+#: settings/AboutPage.js:89
+msgid "OS"
+msgstr "මෙහෙයුම් පද්ධතිය"
+
+#: settings/AboutPage.js:112
+msgid "Session Type"
+msgstr "වාරයේ වර්ගය"
+
+#: settings/AboutPage.js:129
+msgid "Credits"
+msgstr "ස්තූතිය"
+
+#: utils.js:30
+msgid "ArcMenu - Hibernate Error!"
+msgstr "ආර්ක් මෙනු - උදාසීන නිඳීමේ දෝෂයකි!"
+
+#: utils.js:30
+msgid "System unable to hibernate."
+msgstr "පද්ධතියට උදාසීන නිඳීමට නොහැකිය"
+
+#: utils.js:41
+msgid "ArcMenu - Hybrid Sleep Error!"
+msgstr "ආර්ක් මෙනු - දෙමුහුම් නිඳීමේ දෝෂයකි!"
+
+#: utils.js:41
+msgid "System unable to hybrid sleep."
+msgstr "පද්ධතියට දෙමුහුම් නිඳීමට නොහැකිය"
+
+#: utils.js:376
+msgid "Invalid Shortcut"
+msgstr "කෙටිමඟ වලංගු නොවේ"

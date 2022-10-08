@@ -1,0 +1,1736 @@
+# Occitan translation.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Quentin PAGÈS 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 15:56-0400\n"
+"PO-Revision-Date: 2022-07-06 20:16+0200\n"
+"Last-Translator: Quentin PAGÈS\n"
+"Language-Team: \n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1\n"
+
+#: appMenu.js:38 appMenu.js:230
+msgid "Pin to ArcMenu"
+msgstr "Penjar a ArcMenu"
+
+#: appMenu.js:61 appMenu.js:186
+msgid "Create Desktop Shortcut"
+msgstr "Crear acorchi burèu"
+
+#: appMenu.js:186
+msgid "Delete Desktop Shortcut"
+msgstr "Suprimir acorchi burèu"
+
+#: appMenu.js:194 appMenu.js:230
+msgid "Unpin from ArcMenu"
+msgstr "Despenjar d’ArcMenu"
+
+#: appMenu.js:267
+msgid "Open Folder Location"
+msgstr "Dobrir lo repertòri actual"
+
+#: constants.js:71
+msgid "Favorites"
+msgstr "Favorits"
+
+#: constants.js:72 menulayouts/runner.js:94 settings/LayoutTweaksPage.js:746
+msgid "Frequent Apps"
+msgstr "Aplicacions frequentas"
+
+#: constants.js:73 menulayouts/az.js:128 menulayouts/az.js:130
+#: menulayouts/az.js:165 menulayouts/eleven.js:163 menulayouts/eleven.js:164
+#: menulayouts/eleven.js:223 menulayouts/redmond.js:46
+#: menulayouts/redmond.js:47 menulayouts/redmond.js:51
+msgid "All Apps"
+msgstr "Totas las aplicacions"
+
+#: constants.js:74 menulayouts/insider.js:162 menulayouts/plasma.js:119
+#: menulayouts/raven.js:57 menulayouts/raven.js:226 menulayouts/raven.js:275
+#: menulayouts/unity.js:39 menulayouts/unity.js:290 menulayouts/unity.js:349
+#: menulayouts/windows.js:386 menuWidgets.js:717
+#: settings/LayoutTweaksPage.js:639 settings/LayoutTweaksPage.js:744
+#: settings/MenuSettingsPage.js:54 settings/MenuSettingsPage.js:194
+#: utils.js:255
+msgid "Pinned Apps"
+msgstr "Aplicacions penjadas"
+
+#: constants.js:75 menulayouts/raven.js:297 menulayouts/unity.js:367
+#: searchProviders/recentFiles.js:26 searchProviders/recentFiles.js:27
+msgid "Recent Files"
+msgstr "Fichièrs recents"
+
+#: constants.js:248 menulayouts/mint.js:224 menulayouts/unity.js:211
+#: settings/MenuSettingsPages/ListPinnedPage.js:338
+msgid "Log Out"
+msgstr "Se desconnectar"
+
+#: constants.js:249 menulayouts/mint.js:225 menulayouts/unity.js:212
+#: settings/MenuSettingsPages/ListPinnedPage.js:337
+msgid "Lock"
+msgstr "Verrolhar"
+
+#: constants.js:250 settings/MenuSettingsPages/ListPinnedPage.js:340
+msgid "Restart"
+msgstr "Reaviar"
+
+#: constants.js:251 menulayouts/mint.js:226 menulayouts/unity.js:213
+#: settings/MenuSettingsPages/ListPinnedPage.js:339
+msgid "Power Off"
+msgstr "Atudar"
+
+#: constants.js:252 settings/MenuSettingsPages/ListPinnedPage.js:341
+msgid "Suspend"
+msgstr "Metre en velha"
+
+#: constants.js:253 settings/MenuSettingsPages/ListPinnedPage.js:342
+msgid "Hybrid Sleep"
+msgstr "Velha ibrida"
+
+#: constants.js:254 settings/MenuSettingsPages/ListPinnedPage.js:343
+msgid "Hibernate"
+msgstr "Ivernar"
+
+#: constants.js:376 settings/AboutPage.js:34
+msgid "ArcMenu"
+msgstr "ArcMenu"
+
+#: constants.js:377
+msgid "Brisk"
+msgstr "Brisk"
+
+#: constants.js:378
+msgid "Whisker"
+msgstr "Whisker"
+
+#: constants.js:379
+msgid "GNOME Menu"
+msgstr "Menú GNOME"
+
+#: constants.js:380
+msgid "Mint"
+msgstr "Mint"
+
+#: constants.js:381
+msgid "Budgie"
+msgstr "Budgie"
+
+#: constants.js:384
+msgid "Unity"
+msgstr "Unity"
+
+#: constants.js:385
+msgid "Plasma"
+msgstr "Plasma"
+
+#: constants.js:386
+msgid "tognee"
+msgstr ""
+
+#: constants.js:387
+msgid "Insider"
+msgstr ""
+
+#: constants.js:388
+msgid "Redmond"
+msgstr "Redmond"
+
+#: constants.js:389
+msgid "Windows"
+msgstr "Fenèstras"
+
+#: constants.js:390
+msgid "11"
+msgstr ""
+
+#: constants.js:391
+msgid "a.z."
+msgstr ""
+
+#: constants.js:394
+msgid "Elementary"
+msgstr "Elementary"
+
+#: constants.js:395
+msgid "Chromebook"
+msgstr "Chromebook"
+
+#: constants.js:398
+msgid "Runner"
+msgstr ""
+
+#: constants.js:399
+msgid "GNOME Overview"
+msgstr "Apercebut GNOME"
+
+#: constants.js:402
+msgid "Raven"
+msgstr "Raven"
+
+#: constants.js:406
+msgid "Traditional"
+msgstr "Tradicional"
+
+#: constants.js:407
+msgid "Modern"
+msgstr "Modèrne"
+
+#: constants.js:408
+msgid "Touch"
+msgstr "Tocar"
+
+#: constants.js:409
+msgid "Launcher"
+msgstr "Aviador"
+
+#: constants.js:410
+msgid "Alternative"
+msgstr "Alternatiu"
+
+#: menuButton.js:523 menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125 menuWidgets.js:1566 prefs.js:118
+#: settings/MenuSettingsPages/ListPinnedPage.js:313
+#: settings/MenuSettingsPages/ListPinnedPage.js:327 settings/MiscPage.js:27
+msgid "ArcMenu Settings"
+msgstr "Paramètres ArcMenu"
+
+#: menuButton.js:527 settings/MenuSettingsPages/GeneralPage.js:110
+msgid "General Settings"
+msgstr "Paramètres generals"
+
+#: menuButton.js:528
+#, fuzzy
+#| msgid "Menu Theme"
+msgid "Menu Theming"
+msgstr "Tèma menú"
+
+#: menuButton.js:529
+#, fuzzy
+#| msgid "Menu Layout"
+msgid "Change Menu Layout"
+msgstr "Disposicion menú"
+
+#: menuButton.js:530
+#, fuzzy
+#| msgid "Tweaks"
+msgid "Layout Tweaks"
+msgstr "Reglatges"
+
+#: menuButton.js:531
+msgid "Customize Menu"
+msgstr "Personaliza lo menú"
+
+#: menuButton.js:532 settings/MenuSettingsPage.js:53
+#: settings/MenuSettingsPage.js:190
+msgid "Button Settings"
+msgstr "Paramètres boton"
+
+#: menuButton.js:535 settings/AboutPage.js:13
+msgid "About"
+msgstr "A prepaus"
+
+#: menuButton.js:541
+msgid "Dash to Panel Settings"
+msgstr ""
+
+#: menulayouts/arcmenu.js:180 menulayouts/baseMenuLayout.js:477
+#: menulayouts/baseMenuLayout.js:479 menulayouts/mint.js:219
+#: menulayouts/plasma.js:169 menulayouts/raven.js:166
+#: menulayouts/redmond.js:171 menulayouts/tognee.js:137
+#: menulayouts/unity.js:147 menulayouts/unity.js:206 menulayouts/windows.js:125
+msgid "Software"
+msgstr "Logicial"
+
+#: menulayouts/arcmenu.js:180 menulayouts/az.js:116 menulayouts/eleven.js:149
+#: menulayouts/insider.js:60 menulayouts/mint.js:215 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147 menulayouts/whisker.js:51
+#: menulayouts/windows.js:59 menulayouts/windows.js:125
+msgid "Settings"
+msgstr "Configuracion"
+
+#: menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125
+msgid "Tweaks"
+msgstr "Reglatges"
+
+#: menulayouts/arcmenu.js:180 menulayouts/az.js:113 menulayouts/eleven.js:146
+#: menulayouts/insider.js:57 menulayouts/mint.js:214 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147 menulayouts/windows.js:56
+#: menulayouts/windows.js:125 menuWidgets.js:1569
+msgid "Terminal"
+msgstr "Terminal"
+
+#: menulayouts/arcmenu.js:180 menulayouts/plasma.js:169
+#: menulayouts/raven.js:166 menulayouts/redmond.js:171
+#: menulayouts/tognee.js:137 menulayouts/unity.js:147
+#: menulayouts/windows.js:125 menuWidgets.js:431
+#: settings/MenuSettingsPages/ListPinnedPage.js:326
+msgid "Activities Overview"
+msgstr "Vista d'ensemble de las activitats"
+
+#: menulayouts/az.js:109 menulayouts/eleven.js:142 menulayouts/insider.js:54
+#: menulayouts/mint.js:223 menulayouts/unity.js:210 menulayouts/windows.js:53
+#: menuWidgets.js:1572
+msgid "Files"
+msgstr "Fichièrs"
+
+#: menulayouts/az.js:128 menulayouts/eleven.js:163 menulayouts/redmond.js:46
+#: menulayouts/redmond.js:50 menuWidgets.js:1151 menuWidgets.js:1172
+#: settings/LayoutsPage.js:232 settings/LayoutTweaksPage.js:36
+msgid "Back"
+msgstr "Retorn"
+
+#: menulayouts/az.js:130 menulayouts/az.js:159 menulayouts/az.js:216
+#: menulayouts/eleven.js:164 menulayouts/eleven.js:213
+#: menulayouts/eleven.js:269 menulayouts/redmond.js:47
+#: menulayouts/redmond.js:50 menulayouts/redmond.js:51
+msgid "Pinned"
+msgstr "Penjadas"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/baseMenuLayout.js:463
+#: menulayouts/mint.js:212 menulayouts/unity.js:200 placeDisplay.js:336
+#: settings/LayoutTweaksPage.js:471 settings/LayoutTweaksPage.js:540
+#: utils.js:231
+msgid "Home"
+msgstr "Acuèlh"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/mint.js:221
+#: menulayouts/unity.js:201
+msgid "Documents"
+msgstr "Documents"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/unity.js:202
+msgid "Downloads"
+msgstr "Telecargaments"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Music"
+msgstr "Musica"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Pictures"
+msgstr "Imatges"
+
+#: menulayouts/baseMenuLayout.js:419
+msgid "Videos"
+msgstr "Vidèos"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/plasma.js:128
+#: menulayouts/unity.js:208 placeDisplay.js:125 placeDisplay.js:148
+#: settings/MenuSettingsPages/ListPinnedPage.js:319
+#: settings/MenuSettingsPages/ListPinnedPage.js:335
+msgid "Computer"
+msgstr "Ordenador"
+
+#: menulayouts/baseMenuLayout.js:419 menulayouts/baseMenuLayout.js:471
+#: menulayouts/plasma.js:291 menulayouts/windows.js:193
+#: settings/MenuSettingsPages/ListPinnedPage.js:320
+#: settings/MenuSettingsPages/ListPinnedPage.js:336
+msgid "Network"
+msgstr "Ret"
+
+#: menulayouts/eleven.js:165 menulayouts/eleven.js:189
+#: menulayouts/eleven.js:273 menulayouts/windows.js:329
+msgid "Frequent"
+msgstr "Utilizadas frequentament"
+
+#: menulayouts/plasma.js:124 menuWidgets.js:1081 menuWidgets.js:2471
+#: settings/MenuSettingsPages/GeneralPage.js:252
+msgid "Applications"
+msgstr "Aplicacions"
+
+#: menulayouts/plasma.js:132
+msgid "Leave"
+msgstr "Quitar"
+
+#: menulayouts/plasma.js:259 menulayouts/windows.js:260
+#: settings/MenuSettingsPage.js:56 settings/MenuSettingsPage.js:217
+msgid "Application Shortcuts"
+msgstr "Acorchis aplicacions"
+
+#: menulayouts/plasma.js:263 menulayouts/windows.js:264
+msgid "Places"
+msgstr "Emplaçaments"
+
+#: menulayouts/plasma.js:275 menulayouts/windows.js:177
+#: settings/LayoutTweaksPage.js:689 settings/LayoutTweaksPage.js:791
+msgid "Bookmarks"
+msgstr "Favorits"
+
+#: menulayouts/plasma.js:283 menulayouts/windows.js:185
+msgid "Devices"
+msgstr "Periferics"
+
+#: menulayouts/plasma.js:318 menuWidgets.js:837
+msgid "Session"
+msgstr "Session"
+
+#: menulayouts/plasma.js:323 menuWidgets.js:841
+msgid "System"
+msgstr "Sistèma"
+
+#: menulayouts/raven.js:59 menulayouts/raven.js:233 menulayouts/unity.js:41
+#: menulayouts/unity.js:295 settings/LayoutTweaksPage.js:472
+#: settings/LayoutTweaksPage.js:541 settings/LayoutTweaksPage.js:638
+#: settings/LayoutTweaksPage.js:723 settings/LayoutTweaksPage.js:747
+msgid "All Programs"
+msgstr "Totes los programas"
+
+#: menulayouts/raven.js:277 menulayouts/unity.js:351
+msgid "Shortcuts"
+msgstr "Acorchis"
+
+#: menuWidgets.js:704
+msgid "Configure Runner"
+msgstr ""
+
+#: menuWidgets.js:729
+msgid "Extras"
+msgstr "Extras"
+
+#: menuWidgets.js:779 menuWidgets.js:795
+#, fuzzy
+#| msgid "Power Off"
+msgid "Power Off / Log Out"
+msgstr "Atudar"
+
+#: menuWidgets.js:908 settings/MenuSettingsPages/GeneralPage.js:254
+msgid "Categories"
+msgstr "Categorias"
+
+#: menuWidgets.js:1216
+msgid "All Applications"
+msgstr "Totas las aplicacions"
+
+#: menuWidgets.js:1868
+msgid "New"
+msgstr "Novèla"
+
+#: menuWidgets.js:2314
+msgid "Search…"
+msgstr "Recercar…"
+
+#: placeDisplay.js:49
+#, javascript-format
+msgid "Failed to launch “%s”"
+msgstr "Impossible d'aviar « %s »"
+
+#: placeDisplay.js:64
+#, javascript-format
+msgid "Failed to mount volume for “%s”"
+msgstr ""
+
+#: placeDisplay.js:210
+#, javascript-format
+msgid "Ejecting drive “%s” failed:"
+msgstr ""
+
+#: prefsWidgets.js:255
+msgid "Modify"
+msgstr "Modificar"
+
+#: prefsWidgets.js:290
+msgid "Move Up"
+msgstr "Montar"
+
+#: prefsWidgets.js:306
+msgid "Move Down"
+msgstr "Davalar"
+
+#: prefsWidgets.js:324
+msgid "Delete"
+msgstr "Supremir"
+
+#: search.js:737
+msgid "Searching..."
+msgstr "Recèrca..."
+
+#: search.js:739
+msgid "No results."
+msgstr "Pas cap de resultat."
+
+#: search.js:818
+#, javascript-format
+msgid "+ %d more"
+msgstr "+ %d de mai"
+
+#: searchProviders/openWindows.js:26
+msgid "List of open windows across all workspaces"
+msgstr ""
+
+#: searchProviders/openWindows.js:27
+msgid "Open Windows"
+msgstr "Fenèstras dobèrtas"
+
+#: searchProviders/openWindows.js:39
+#, javascript-format
+msgid "'%s' on Workspace %d"
+msgstr ""
+
+#: searchProviders/recentFiles.js:77
+#, javascript-format
+msgid "Failed to open “%s”"
+msgstr "Dubertura impossibla de « %s »"
+
+#: settings/GeneralPage.js:13
+msgid "General"
+msgstr "General"
+
+#: settings/GeneralPage.js:20
+msgid "Display Options"
+msgstr "Opcions d'afichatge"
+
+#: settings/GeneralPage.js:33
+msgid "Show Activities Button"
+msgstr ""
+
+#: settings/GeneralPage.js:41 settings/GeneralPage.js:67
+#: settings/LayoutTweaksPage.js:554
+msgid "Left"
+msgstr "Esquèrra"
+
+#: settings/GeneralPage.js:42 settings/GeneralPage.js:68
+msgid "Center"
+msgstr "Centre"
+
+#: settings/GeneralPage.js:43 settings/GeneralPage.js:69
+#: settings/LayoutTweaksPage.js:555
+msgid "Right"
+msgstr "Drecha"
+
+#: settings/GeneralPage.js:45
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:98
+msgid "Position in Panel"
+msgstr "Posicion sul panèl"
+
+#: settings/GeneralPage.js:75
+msgid "Menu Alignment"
+msgstr "Alinhament del menú"
+
+#: settings/GeneralPage.js:94
+msgid "Display ArcMenu on all Panels"
+msgstr ""
+
+#: settings/GeneralPage.js:95
+msgid "Dash to Panel extension required"
+msgstr ""
+
+#: settings/GeneralPage.js:111
+msgid "Always Prefer Top Panel"
+msgstr ""
+
+#: settings/GeneralPage.js:112
+msgid "Useful with Dash to Panel setting 'Keep original gnome-shell top panel'"
+msgstr ""
+
+#: settings/GeneralPage.js:125
+msgid "Hotkey Options"
+msgstr ""
+
+#: settings/GeneralPage.js:128
+msgid "Standalone Runner Menu"
+msgstr ""
+
+#: settings/GeneralPage.js:171
+msgid "Enable a standalone Runner menu"
+msgstr ""
+
+#: settings/GeneralPage.js:186
+msgid "Open on Primary Monitor"
+msgstr ""
+
+#: settings/GeneralPage.js:193
+msgid "None"
+msgstr " Pas cap"
+
+#: settings/GeneralPage.js:194
+msgid "Left Super Key"
+msgstr ""
+
+#: settings/GeneralPage.js:195
+msgid "Custom Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:198
+#, fuzzy
+#| msgid "Menu Height"
+msgid "Menu Hotkey"
+msgstr "Nautor del menú"
+
+#: settings/GeneralPage.js:198
+msgid "Runner Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:211
+msgid "Modify Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:216
+msgid "Current Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:300
+msgid "Set Custom Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:325
+msgid "Choose Modifiers"
+msgstr ""
+
+#: settings/GeneralPage.js:335
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: settings/GeneralPage.js:339
+msgid "Super"
+msgstr "Super"
+
+#: settings/GeneralPage.js:343
+msgid "Shift"
+msgstr "Maj"
+
+#: settings/GeneralPage.js:347
+msgid "Alt"
+msgstr "Alt"
+
+#: settings/GeneralPage.js:399
+msgid "Press any key"
+msgstr ""
+
+#: settings/GeneralPage.js:415
+msgid "New Hotkey"
+msgstr ""
+
+#: settings/GeneralPage.js:425 settings/LayoutsPage.js:218
+#: settings/MenuSettingsPages/ListPinnedPage.js:575
+msgid "Apply"
+msgstr "Aplicar"
+
+#: settings/LayoutsPage.js:15
+msgid "Layouts"
+msgstr "Agençaments"
+
+#: settings/LayoutsPage.js:58
+msgid "Current Menu Layout"
+msgstr ""
+
+#: settings/LayoutsPage.js:73
+#, fuzzy
+#| msgid "Menu Layout"
+msgid "Available Menu Layouts"
+msgstr "Disposicion menú"
+
+#: settings/LayoutsPage.js:78 settings/LayoutsPage.js:246
+#, fuzzy, javascript-format
+#| msgid "Menu Layout"
+msgid "%s Menu Layouts"
+msgstr "Disposicion menú"
+
+#: settings/LayoutsPage.js:168
+#, javascript-format
+msgid "%s Layout Tweaks"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:123
+msgid "Mouse Click"
+msgstr "Clic mirga"
+
+#: settings/LayoutTweaksPage.js:124
+msgid "Mouse Hover"
+msgstr "Susvòl de cursor"
+
+#: settings/LayoutTweaksPage.js:127
+msgid "Category Activation"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:150
+msgid "Round"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:151
+#: settings/MenuSettingsPages/GeneralPage.js:236
+#: settings/MenuSettingsPages/GeneralPage.js:237
+#: settings/MenuSettingsPages/GeneralPage.js:238
+msgid "Square"
+msgstr "Carrat"
+
+#: settings/LayoutTweaksPage.js:153
+msgid "Avatar Icon Shape"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:168 settings/LayoutTweaksPage.js:808
+msgid "Bottom"
+msgstr "Aval"
+
+#: settings/LayoutTweaksPage.js:169 settings/LayoutTweaksPage.js:366
+#: settings/LayoutTweaksPage.js:809
+msgid "Top"
+msgstr "Amont"
+
+#: settings/LayoutTweaksPage.js:172
+msgid "Searchbar Location"
+msgstr "Posicion de la barra de recèrca"
+
+#: settings/LayoutTweaksPage.js:193
+msgid "Flip Layout Horizontally"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:209
+msgid "Disable User Avatar"
+msgstr "Desactivar avatar utilizaire"
+
+#: settings/LayoutTweaksPage.js:226 settings/LayoutTweaksPage.js:269
+msgid "Disable Frequent Apps"
+msgstr "Desactivar las aplicacions frequentas"
+
+#: settings/LayoutTweaksPage.js:250
+msgid "Show Applications Grid"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:283
+msgid "Disable Pinned Apps"
+msgstr "Desactivar las aplicacions penjadas"
+
+#: settings/LayoutTweaksPage.js:304
+msgid "Activate on Hover"
+msgstr "Activar al susvòl"
+
+#: settings/LayoutTweaksPage.js:320
+msgid "Brisk Menu Shortcuts"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:354
+msgid "Enable Activities Overview Shortcut"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:367
+msgid "Centered"
+msgstr "Centrat"
+
+#: settings/LayoutTweaksPage.js:369
+msgid "Position"
+msgstr "Posicion"
+
+#: settings/LayoutTweaksPage.js:396
+msgid "Width"
+msgstr "Largor"
+
+#: settings/LayoutTweaksPage.js:419
+#: settings/MenuSettingsPages/GeneralPage.js:40
+msgid "Height"
+msgstr "Nautor"
+
+#: settings/LayoutTweaksPage.js:442 settings/ThemingPage.js:173
+msgid "Font Size"
+msgstr "Talha de poliça"
+
+#: settings/LayoutTweaksPage.js:443
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:75
+#, javascript-format
+msgid "%d Default Theme Value"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:457
+msgid "Show Frequent Apps"
+msgstr "Afichar las aplicacions frequentas"
+
+#: settings/LayoutTweaksPage.js:474 settings/LayoutTweaksPage.js:543
+#: settings/LayoutTweaksPage.js:642 settings/LayoutTweaksPage.js:725
+#: settings/LayoutTweaksPage.js:749
+msgid "Default View"
+msgstr "Vista per defaut"
+
+#: settings/LayoutTweaksPage.js:488
+msgid "Unity Layout Buttons"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:495
+msgid "Button Separator Position"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:513 settings/LayoutTweaksPage.js:603
+msgid "Adjust the position of the separator in the button panel"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:526 settings/LayoutTweaksPage.js:616
+msgid "Separator Position"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:557
+msgid "Position on Monitor"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:578
+#, fuzzy
+#| msgid "Mint Menu Shortcuts"
+msgid "Mint Layout Shortcuts"
+msgstr "Acorchis de menú Mint"
+
+#: settings/LayoutTweaksPage.js:585
+msgid "Shortcut Separator Position"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:658 settings/LayoutTweaksPage.js:766
+msgid "Extra Shortcuts"
+msgstr "Acorchis suplementaris"
+
+#: settings/LayoutTweaksPage.js:675 settings/LayoutTweaksPage.js:777
+msgid "External Devices"
+msgstr "Periferics extèrns"
+
+#: settings/LayoutTweaksPage.js:712
+msgid "Nothing Yet!"
+msgstr "Res pel moment !"
+
+#: settings/LayoutTweaksPage.js:722 settings/LayoutTweaksPage.js:745
+msgid "Categories List"
+msgstr "Lista de las categorias"
+
+#: settings/LayoutTweaksPage.js:799
+#, fuzzy
+#| msgid "Extra Categories"
+msgid "Extra Categories Quick Links"
+msgstr "Categorias suplementàrias"
+
+#: settings/LayoutTweaksPage.js:800
+msgid ""
+"Display quick links of extra categories on the home page\n"
+"See Customize Menu -> Extra Categories"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:811
+msgid "Quick Links Location"
+msgstr ""
+
+#: settings/LayoutTweaksPage.js:844
+msgid "Enable Weather Widget"
+msgstr "Activar lo widget metèo"
+
+#: settings/LayoutTweaksPage.js:858
+msgid "Enable Clock Widget"
+msgstr "Activar lo relòtge"
+
+#: settings/ThemingPage.js:18
+msgid "Theme"
+msgstr "Tèma"
+
+#: settings/ThemingPage.js:44
+#, fuzzy
+#| msgid "Save Theme"
+msgid "Override Theme"
+msgstr "Enregistrar lo tèma"
+
+#: settings/ThemingPage.js:45
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:177
+msgid "Results may vary with third party themes"
+msgstr ""
+
+#: settings/ThemingPage.js:52
+#, fuzzy
+#| msgid "Menu Theme"
+msgid "Menu Themes"
+msgstr "Tèma menú"
+
+#: settings/ThemingPage.js:96
+#, fuzzy
+#| msgid "Menu Theme"
+msgid "Current Theme"
+msgstr "Tèma menú"
+
+#: settings/ThemingPage.js:124
+msgid "Save as Theme"
+msgstr "Enregistrar coma tèma"
+
+#: settings/ThemingPage.js:153
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Menu Styling"
+msgstr "Paramètres menú"
+
+#: settings/ThemingPage.js:158 settings/ThemingPage.js:184
+#: settings/ThemingPage.js:190
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:184
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:190
+msgid "Background Color"
+msgstr "Color de fons"
+
+#: settings/ThemingPage.js:161 settings/ThemingPage.js:187
+#: settings/ThemingPage.js:193
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:181
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:187
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:193
+msgid "Foreground Color"
+msgstr "Color de primièr plan"
+
+#: settings/ThemingPage.js:164
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:202
+msgid "Border Color"
+msgstr "Color de la bordadura"
+
+#: settings/ThemingPage.js:167
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:199
+#, fuzzy
+#| msgid "Border Size"
+msgid "Border Width"
+msgstr "Talha del bòrd"
+
+#: settings/ThemingPage.js:170
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:196
+#, fuzzy
+#| msgid "Border Size"
+msgid "Border Radius"
+msgstr "Talha del bòrd"
+
+#: settings/ThemingPage.js:176
+msgid "Separator Color"
+msgstr "Color del separator"
+
+#: settings/ThemingPage.js:180
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Menu Items Styling"
+msgstr "Paramètres menú"
+
+#: settings/ThemingPage.js:184 settings/ThemingPage.js:187
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:184
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:187
+msgid "Hover"
+msgstr "Susvòl"
+
+#: settings/ThemingPage.js:190 settings/ThemingPage.js:193
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:190
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:193
+msgid "Active"
+msgstr "Actiu"
+
+#: settings/ThemingDialog.js:14
+msgid "Manage Themes"
+msgstr "Gerir los tèmas"
+
+#: settings/ThemingDialog.js:101
+#, fuzzy
+#| msgid "Save Theme"
+msgid "Save Theme As..."
+msgstr "Enregistrar lo tèma"
+
+#: settings/ThemingDialog.js:112
+msgid "Theme Name"
+msgstr "Nom del tèma"
+
+#: settings/ThemingDialog.js:129
+msgid "Save Theme"
+msgstr "Enregistrar lo tèma"
+
+#: settings/MenuSettingsPage.js:22
+msgid "Customize"
+msgstr "Personalizar"
+
+#: settings/MenuSettingsPage.js:39 settings/MenuSettingsPage.js:52
+#: settings/MenuSettingsPage.js:186
+msgid "Menu Settings"
+msgstr "Paramètres menú"
+
+#: settings/MenuSettingsPage.js:55 settings/MenuSettingsPage.js:213
+msgid "Directory Shortcuts"
+msgstr "Acorchis repertòri"
+
+#: settings/MenuSettingsPage.js:57 settings/MenuSettingsPage.js:221
+msgid "Power Options"
+msgstr "Opcions d’energia"
+
+#: settings/MenuSettingsPage.js:58 settings/MenuSettingsPage.js:225
+#: settings/MenuSettingsPages/SearchOptionsPage.js:61
+msgid "Search Options"
+msgstr "Opcions de recèrca"
+
+#: settings/MenuSettingsPage.js:59 settings/MenuSettingsPage.js:229
+msgid "Extra Categories"
+msgstr "Categorias suplementàrias"
+
+#: settings/MenuSettingsPage.js:60 settings/MenuSettingsPage.js:233
+msgid "Fine-Tune"
+msgstr ""
+
+#: settings/MenuSettingsPage.js:95
+msgid "View Sidebar"
+msgstr ""
+
+#: settings/MenuSettingsPage.js:113
+msgid "Reset settings"
+msgstr "Reïnicializar los paramètres"
+
+#: settings/MenuSettingsPage.js:122
+#, fuzzy, javascript-format
+#| msgid "Reset all..."
+msgid "Reset all %s?"
+msgstr "Tot reïnicializar…"
+
+#: settings/MenuSettingsPage.js:123
+#, javascript-format
+msgid "All %s will be reset to the default value."
+msgstr ""
+
+#: settings/MenuSettingsPage.js:145
+msgid "Next Page"
+msgstr "Pagina seguenta"
+
+#: settings/MenuSettingsPage.js:157
+msgid "Previous Page"
+msgstr "Pagina precedenta"
+
+#: settings/MenuSettingsPages/GeneralPage.js:22
+#, fuzzy
+#| msgid "Icon Size"
+msgid "Menu Size"
+msgstr "Talha d'icòna"
+
+#: settings/MenuSettingsPages/GeneralPage.js:60
+msgid "Left-Panel Width"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:61
+#: settings/MenuSettingsPages/GeneralPage.js:82
+#: settings/MenuSettingsPages/GeneralPage.js:222
+#, fuzzy
+#| msgid "Traditional"
+msgid "Traditional Layouts"
+msgstr "Tradicional"
+
+#: settings/MenuSettingsPages/GeneralPage.js:81
+msgid "Right-Panel Width"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:102
+msgid "Width Offset"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:103
+#, fuzzy
+#| msgid "Traditional"
+msgid "Non-Traditional Layouts"
+msgstr "Tradicional"
+
+#: settings/MenuSettingsPages/GeneralPage.js:115
+msgid "Off"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:116
+#, fuzzy
+#| msgid "Centered"
+msgid "Top Centered"
+msgstr "Centrat"
+
+#: settings/MenuSettingsPages/GeneralPage.js:117
+#, fuzzy
+#| msgid "Centered"
+msgid "Bottom Centered"
+msgstr "Centrat"
+
+#: settings/MenuSettingsPages/GeneralPage.js:119
+#, fuzzy
+#| msgid "Open Folder Location"
+msgid "Override Menu Location"
+msgstr "Dobrir lo repertòri actual"
+
+#: settings/MenuSettingsPages/GeneralPage.js:160
+msgid "Override Menu Rise"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:161
+msgid "Menu Distance from Panel and Screen Edge"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:182
+msgid "Show Application Descriptions"
+msgstr "Afichar la descripcion de las aplicacions"
+
+#: settings/MenuSettingsPages/GeneralPage.js:189
+#, fuzzy
+#| msgid "Color"
+msgid "Full Color"
+msgstr "Color"
+
+#: settings/MenuSettingsPages/GeneralPage.js:190
+msgid "Symbolic"
+msgstr "Simbolic"
+
+#: settings/MenuSettingsPages/GeneralPage.js:192
+msgid "Category Icon Type"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:193
+#: settings/MenuSettingsPages/GeneralPage.js:204
+msgid "Some icon themes may not include selected icon type"
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:203
+msgid "Shortcuts Icon Type"
+msgstr "Tipe d'icòna d’acorchi"
+
+#: settings/MenuSettingsPages/GeneralPage.js:221
+msgid "Vertical Separator"
+msgstr "Separador vertical"
+
+#: settings/MenuSettingsPages/GeneralPage.js:229
+#, fuzzy
+#| msgid "Icon Size"
+msgid "Icon Sizes"
+msgstr "Talha d'icòna"
+
+#: settings/MenuSettingsPages/GeneralPage.js:230
+msgid "Modify the icon size of various menu elements."
+msgstr ""
+
+#: settings/MenuSettingsPages/GeneralPage.js:235
+#: settings/MenuSettingsPages/GeneralPage.js:287
+#: settings/MenuSettingsPages/ListOtherPage.js:42
+msgid "Default"
+msgstr "Predefinit"
+
+#: settings/MenuSettingsPages/GeneralPage.js:236
+#: settings/MenuSettingsPages/GeneralPage.js:239
+#: settings/MenuSettingsPages/GeneralPage.js:289
+msgid "Small"
+msgstr "Pichona"
+
+#: settings/MenuSettingsPages/GeneralPage.js:237
+#: settings/MenuSettingsPages/GeneralPage.js:240
+#: settings/MenuSettingsPages/GeneralPage.js:290
+msgid "Medium"
+msgstr "Mejana"
+
+#: settings/MenuSettingsPages/GeneralPage.js:238
+#: settings/MenuSettingsPages/GeneralPage.js:241
+#: settings/MenuSettingsPages/GeneralPage.js:291
+msgid "Large"
+msgstr "Granda"
+
+#: settings/MenuSettingsPages/GeneralPage.js:239
+#: settings/MenuSettingsPages/GeneralPage.js:240
+#: settings/MenuSettingsPages/GeneralPage.js:241
+msgid "Wide"
+msgstr "Larga"
+
+#: settings/MenuSettingsPages/GeneralPage.js:243
+#, fuzzy
+#| msgid "Browse Icons"
+msgid "Grid Icons"
+msgstr "Percórrer las icònas"
+
+#: settings/MenuSettingsPages/GeneralPage.js:256
+msgid "Buttons"
+msgstr "Botons"
+
+#: settings/MenuSettingsPages/GeneralPage.js:258
+msgid "Quick Links"
+msgstr "Ligams rapids"
+
+#: settings/MenuSettingsPages/GeneralPage.js:260 settings/MiscPage.js:17
+msgid "Misc"
+msgstr "Divèrs"
+
+#: settings/MenuSettingsPages/GeneralPage.js:288
+msgid "Extra Small"
+msgstr "Pichoneta"
+
+#: settings/MenuSettingsPages/GeneralPage.js:292
+msgid "Extra Large"
+msgstr "Largassa"
+
+#: settings/MenuSettingsPages/GeneralPage.js:295
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:33
+msgid "Hidden"
+msgstr "Amagat"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:25
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Menu Button"
+msgstr "Paramètres menú"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:29
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:142
+#: settings/MenuSettingsPages/ListPinnedPage.js:517
+msgid "Icon"
+msgstr "Icòna"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:30
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:114
+msgid "Text"
+msgstr "Tèxt"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:31
+msgid "Icon and Text"
+msgstr "Icòna e tèxt"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:32
+msgid "Text and Icon"
+msgstr "Tèxt e icòna"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:35
+msgid "Appearance"
+msgstr "Aparéncia"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:74
+msgid "Padding"
+msgstr ""
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:126
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Icon Settings"
+msgstr "Paramètres menú"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:129
+msgid "Browse Icons"
+msgstr "Percórrer las icònas"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:165
+msgid "Icon Size"
+msgstr "Talha d'icòna"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:176
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Menu Button Styling"
+msgstr "Paramètres menú"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:199
+msgid "Background colors required if set to 0"
+msgstr ""
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:346
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:351
+msgid "ArcMenu Icons"
+msgstr "Icònas ArcMenu"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:374
+msgid "Distro Icons"
+msgstr "Icònas de la distribucion"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:410
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:443
+msgid "Custom Icon"
+msgstr "Icòna personalizada"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:449
+#: settings/MenuSettingsPages/ListPinnedPage.js:527
+msgid "Browse..."
+msgstr "Percórrer..."
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:454
+#: settings/MenuSettingsPages/ListPinnedPage.js:533
+msgid "Select an Icon"
+msgstr "Seleccionar una icòna"
+
+#: settings/MenuSettingsPages/ButtonAppearancePage.js:541
+msgid "Legal disclaimer for Distro Icons"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:29
+#: settings/MenuSettingsPages/ListPinnedPage.js:51
+msgid "Add More Apps"
+msgstr "Apondre mai d'aplicacions"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:40
+msgid "Add Default User Directories"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:116
+msgid "Add Custom Shortcut"
+msgstr "Apondre un acorchi personalizat"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:302
+msgid "Add to your Pinned Apps"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:304
+msgid "Change Selected Pinned App"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:306
+msgid "Select Application Shortcuts"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:308
+msgid "Select Directory Shortcuts"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:321
+msgid "Recent"
+msgstr "Recents"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:328
+msgid "Run Command..."
+msgstr "Executar una comanda..."
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:329
+msgid "Show All Applications"
+msgstr "Afichar totas las aplicacions"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:446
+#, javascript-format
+msgid "%s has been pinned to ArcMenu"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:458
+#, javascript-format
+msgid "%s has been unpinned from ArcMenu"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:491
+msgid "Add a Custom Shortcut"
+msgstr "Apondre un acorchi personalizat"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:494
+msgid "Edit Pinned App"
+msgstr "Modificar las aplicacions penjadas"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:496
+msgid "Edit Shortcut"
+msgstr "Modificar l'acorchi"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:506
+msgid "Title"
+msgstr "Títol"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:562
+msgid "Command"
+msgstr "Comanda"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:565
+msgid "Shortcut Path"
+msgstr "Camin de l’acorchi"
+
+#: settings/MenuSettingsPages/ListPinnedPage.js:575
+msgid "Add"
+msgstr "Apondre"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:39
+msgid "Power Off / Log Out Buttons"
+msgstr "Botons Atudar / Se desconnectar"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:43
+msgid "In-Line"
+msgstr ""
+
+#: settings/MenuSettingsPages/ListOtherPage.js:44
+msgid "Sub Menu"
+msgstr "Jos menú"
+
+#: settings/MenuSettingsPages/ListOtherPage.js:46
+msgid "Display Style"
+msgstr "Estil d’afichatge"
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:28
+msgid "Extra Search Providers"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:39
+msgid "Search for open windows across all workspaces"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:53
+msgid "Search for recent files"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:71
+msgid "Show descriptions of search results"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:86
+msgid "Highlight search result terms"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:105
+msgid "Max Search Results"
+msgstr ""
+
+#: settings/MenuSettingsPages/SearchOptionsPage.js:148
+msgid "Search Box Border Radius"
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:37
+msgid "Disable ScrollView Fade Effects"
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:53
+msgid "Disable Tooltips"
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:69
+msgid "Alphabetize 'All Programs' Category"
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:85
+#, fuzzy
+#| msgid "Recent Files"
+msgid "Show Hidden Recent Files"
+msgstr "Fichièrs recents"
+
+#: settings/MenuSettingsPages/FineTunePage.js:105
+#: settings/MenuSettingsPages/FineTunePage.js:118
+msgid "Multi-Lined Labels"
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:105
+msgid "Enable/Disable multi-lined labels on large application icon layouts."
+msgstr ""
+
+#: settings/MenuSettingsPages/FineTunePage.js:140
+#, fuzzy
+#| msgid "Pinned Apps"
+msgid "Disable New Apps Tracker"
+msgstr "Aplicacions penjadas"
+
+#: settings/MenuSettingsPages/FineTunePage.js:150
+msgid "Clear All"
+msgstr "Escafar tot"
+
+#: settings/MenuSettingsPages/FineTunePage.js:159
+msgid "Clear Apps Marked 'New'"
+msgstr ""
+
+#: settings/MiscPage.js:24
+msgid "Export or Import Settings"
+msgstr ""
+
+#: settings/MiscPage.js:34
+#, fuzzy
+#| msgid "ArcMenu Settings"
+msgid "Export or Import ArcMenu Settings"
+msgstr "Paramètres ArcMenu"
+
+#: settings/MiscPage.js:35
+msgid "Importing will overwrite current settings."
+msgstr ""
+
+#: settings/MiscPage.js:49
+msgid "Import"
+msgstr "Importar"
+
+#: settings/MiscPage.js:54
+msgid "Import settings"
+msgstr "Paramètres d'importacion"
+
+#: settings/MiscPage.js:81
+msgid "Export"
+msgstr "Exportar"
+
+#: settings/MiscPage.js:86
+msgid "Export settings"
+msgstr "Exportar los paramètres"
+
+#: settings/MiscPage.js:105
+#, fuzzy
+#| msgid "ArcMenu Settings"
+msgid "ArcMenu Settings Window Size"
+msgstr "Paramètres ArcMenu"
+
+#: settings/MiscPage.js:121
+msgid "Window Width"
+msgstr "Largor de la fenèstra"
+
+#: settings/MiscPage.js:141
+msgid "Window Height"
+msgstr "Nautor de la fenèstra"
+
+#: settings/MiscPage.js:150
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Reset all ArcMenu Settings"
+msgstr "Paramètres menú"
+
+#: settings/MiscPage.js:156
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Reset all Settings"
+msgstr "Paramètres menú"
+
+#: settings/MiscPage.js:162
+#, fuzzy
+#| msgid "Menu Settings"
+msgid "Reset all settings?"
+msgstr "Paramètres menú"
+
+#: settings/MiscPage.js:163
+msgid "All ArcMenu settings will be reset to the default value."
+msgstr ""
+
+#: settings/AboutPage.js:41
+msgid "Application Menu Extension for GNOME"
+msgstr ""
+
+#: settings/AboutPage.js:55
+msgid "ArcMenu Version"
+msgstr "Version ArcMenu"
+
+#: settings/AboutPage.js:68
+msgid "Git Commit"
+msgstr "Git Commit"
+
+#: settings/AboutPage.js:81
+msgid "GNOME Version"
+msgstr "Version de GNOME"
+
+#: settings/AboutPage.js:89
+msgid "OS"
+msgstr "Sistèma operatiu"
+
+#: settings/AboutPage.js:112
+msgid "Session Type"
+msgstr "Tipe de session"
+
+#: settings/AboutPage.js:129
+msgid "Credits"
+msgstr "Crèdits"
+
+#: utils.js:30
+msgid "ArcMenu - Hibernate Error!"
+msgstr ""
+
+#: utils.js:30
+msgid "System unable to hibernate."
+msgstr ""
+
+#: utils.js:41
+msgid "ArcMenu - Hybrid Sleep Error!"
+msgstr ""
+
+#: utils.js:41
+msgid "System unable to hybrid sleep."
+msgstr ""
+
+#: utils.js:376
+msgid "Invalid Shortcut"
+msgstr "Acorchi invalid"
+
+#~ msgid "Eleven"
+#~ msgstr "Eleven"
+
+#~ msgid "Simple"
+#~ msgstr "Simple"
+
+#~ msgid "Simple 2"
+#~ msgstr "Simple 2"
+
+#, fuzzy
+#~| msgid "Pinned Apps"
+#~ msgid "Modify Pinned Apps"
+#~ msgstr "Aplicacions penjadas"
+
+#, fuzzy
+#~| msgid "Edit Shortcut"
+#~ msgid "Modify Shortcuts"
+#~ msgstr "Modificar l'acorchi"
+
+#~ msgid "Trash"
+#~ msgstr "Escobilhièr"
+
+#~ msgid "More"
+#~ msgstr "Mai"
+
+#~ msgid "All"
+#~ msgstr "Tot"
+
+#~ msgid "Type to search…"
+#~ msgstr "Començatz la sasida per recercar…"
+
+#~ msgid "Circular"
+#~ msgstr "Circular"
+
+#~ msgid "Restore Defaults"
+#~ msgstr "Restaurar las valors per defaut"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrar"
+
+#~ msgid "Default Screen"
+#~ msgstr "Ecran per defaut"
+
+#~ msgid "Home Screen"
+#~ msgstr "Ecran d’acuèlh"
+
+#~ msgid "Current Windows:"
+#~ msgstr "Fenèstras actualas :"
+
+#~ msgid "New Window"
+#~ msgstr "Fenèstra novèla"
+
+#, fuzzy
+#~| msgid "Launch using Dedicated Graphics Card"
+#~ msgid "Launch using Integrated Graphics Card"
+#~ msgstr "Aviar en utilizant la carta grafica dedicada"
+
+#, fuzzy
+#~| msgid "Launch using Dedicated Graphics Card"
+#~ msgid "Launch using Discrete Graphics Card"
+#~ msgstr "Aviar en utilizant la carta grafica dedicada"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Tirar dels favorits"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Ajustar als favorits"
+
+#~ msgid "Show Details"
+#~ msgstr "Afichar los detalhs"
+
+#~ msgid "Users"
+#~ msgstr "Utilizaires"
+
+#~ msgid "Show Applications"
+#~ msgstr "Afichar las aplicacions"
+
+#~ msgid "Add world clocks…"
+#~ msgstr "Apondre de relòtges mondials…"
+
+#~ msgid "World Clocks"
+#~ msgstr "Relòtges mondials"
+
+#~ msgid "Weather"
+#~ msgstr "Metèo"
+
+#~ msgid "Select a location…"
+#~ msgstr "Causir un emplaçament…"
+
+#~ msgid "Loading…"
+#~ msgstr "Cargament…"
+
+#~ msgid "Go online for weather information"
+#~ msgstr "Cercar las informacions meteorologicas en linha"
+
+#~ msgid "Weather information is currently unavailable"
+#~ msgstr "Las informacions meteorologicas son pas disponiblas actualament"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Voidar l’escobilhièr"
+
+#~ msgid "Default Apps"
+#~ msgstr "Aplicacions per defaut"
+
+#~ msgid "System Apps"
+#~ msgstr "Aplicacions sistèma"
+
+#~ msgid "Presets"
+#~ msgstr "Prereglatges"
+
+#~ msgid "Icon:"
+#~ msgstr "Icòna :"
+
+#~ msgid "Key Release"
+#~ msgstr "Daissament d'una tòca"
+
+#~ msgid "Key Press"
+#~ msgstr "Quichada sus una tòca"
+
+#~ msgid "Ubuntu Dock"
+#~ msgstr "Ubuntu Dock"
+
+#~ msgid "Main Panel"
+#~ msgstr "Panèl màger"
+
+#~ msgid "GNOME Default"
+#~ msgstr "Navigador de Gnome"
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivat"
+
+#~ msgid "Show all Applications"
+#~ msgstr "Afichar totas las aplicacions"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal GNOME"
+
+#~ msgid "GNOME System Monitor"
+#~ msgstr "Monitor sistèma GNOME"
+
+#~ msgid "GNOME Calculator"
+#~ msgstr "Calculadoira GNOME"
+
+#~ msgid "GNOME gedit"
+#~ msgstr "GNOME gedit"
+
+#~ msgid "GNOME Screenshot"
+#~ msgstr "Captura d'ecran de GNOME"
+
+#~ msgid "GNOME Weather"
+#~ msgstr "GNOME metèo"
+
+#~ msgid "Show Arrow"
+#~ msgstr "Afichar la sageta"
+
+#~ msgid "Icon Appearance"
+#~ msgstr "Aparéncia de l’icòna"
+
+#~ msgid "Enable/Disble"
+#~ msgstr "Activar/Desactivar"
+
+#~ msgid "Name:"
+#~ msgstr "Nom:"
+
+#~ msgid "Select All"
+#~ msgstr "Seleccionar _tot"
+
+#~ msgid "Theme Settings"
+#~ msgstr "Paramètres del tèma"
+
+#~ msgid "Restore Default Settings?"
+#~ msgstr "Restablir las valors per defaut ?"
+
+#, fuzzy
+#~| msgid "ArcMenu Settings"
+#~ msgid "ArcMenu GitLab"
+#~ msgstr "Paramètres ArcMenu"
+
+#~ msgid "Developers"
+#~ msgstr "Desvolopaires"
+
+#~ msgid "Translators"
+#~ msgstr "Traductors"
+
+#~ msgid "Contributors"
+#~ msgstr "Contributors"
+
+#~ msgid "Artwork"
+#~ msgstr "Grafisme"
+
+#~ msgid "Menu Layout"
+#~ msgstr "Disposicion menú"
+
+#~ msgid "Change"
+#~ msgstr "Modificar"
+
+#, fuzzy
+#~| msgid "Disable User Avatar"
+#~ msgid "Disable Active Indicator"
+#~ msgstr "Desactivar avatar utilizaire"
+
+#~ msgid "Launch using Dedicated Graphics Card"
+#~ msgstr "Aviar en utilizant la carta grafica dedicada"
+
+#~ msgid "Directories"
+#~ msgstr "Repertòris"
+
+#~ msgid "Session Buttons"
+#~ msgstr "Botons session"
+
+#~ msgid "Restart..."
+#~ msgstr "Tornar amodar..."
+
+#~ msgid "Power Off..."
+#~ msgstr "Atudar…"

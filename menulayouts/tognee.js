@@ -1,28 +1,3 @@
-/*
- * Arc Menu - A traditional application menu for GNOME 3
- *
- * Arc Menu Lead Developer
- * Andrew Zaech https://gitlab.com/AndrewZaech
- *
- * Arc Menu Founder/Maintainer/Graphic Designer
- * LinxGem33 https://gitlab.com/LinxGem33
- *
- * tognee Layout Created By: tognee https://gitlab.com/tognee
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 const {Clutter, GLib, Gio, Gtk, Shell, St} = imports.gi;
@@ -35,31 +10,39 @@ const PopupMenu = imports.ui.popupMenu;
 const Utils = Me.imports.utils;
 const _ = Gettext.gettext;
 
+function getMenuLayoutEnum() { return Constants.MenuLayout.TOGNEE; }
+
 var createMenu = class extends BaseMenuLayout.BaseLayout{
-    constructor(mainButton) {
-        super(mainButton,{
+    constructor(menuButton) {
+        super(menuButton, {
             Search: true,
-            SearchType: Constants.SearchType.LIST_VIEW,
-            VerticalMainBox: true
+            DisplayType: Constants.DisplayType.LIST,
+            SearchDisplayType: Constants.DisplayType.LIST,
+            ShortcutContextMenuLocation: Constants.ContextMenuLocation.RIGHT,
+            GridColumns: 1,
+            ColumnSpacing: 0,
+            RowSpacing: 0,
+            DefaultMenuWidth: 290,
+            VerticalMainBox: true,
+            DefaultCategoryIconSize: Constants.MEDIUM_ICON_SIZE,
+            DefaultApplicationIconSize: Constants.EXTRA_SMALL_ICON_SIZE,
+            DefaultQuickLinksIconSize: Constants.EXTRA_SMALL_ICON_SIZE,
+            DefaultButtonsIconSize: Constants.EXTRA_SMALL_ICON_SIZE,
+            DefaultPinnedIconSize: Constants.MEDIUM_ICON_SIZE,
         });
     }
 
     createLayout(){
-        // Search Box
-        this.searchBox = new MW.SearchBox(this);
-        this._searchBoxChangedId = this.searchBox.connect('changed', this._onSearchBoxChanged.bind(this));
-        this._searchBoxKeyPressId = this.searchBox.connect('key-press-event', this._onSearchBoxKeyPress.bind(this));
-        this._searchBoxKeyFocusInId = this.searchBox.connect('key-focus-in', this._onSearchBoxKeyFocusIn.bind(this));
-        this.searchBox._stEntry.style = "min-height: 0px; border-radius: 18px; padding: 7px 12px;"; // Make it round
+        super.createLayout();
 
         //subMainBox stores left and right box
         this.subMainBox = new St.BoxLayout({
             vertical: false,
             x_expand: true,
             y_expand: true,
-            y_align: Clutter.ActorAlign.FILL
+            y_align: Clutter.ActorAlign.FILL,
         });
-        this.mainBox.add(this.subMainBox);
+        this.mainBox.add_child(this.subMainBox);
 
         // The "Left Box"
         // Contains the app list and the searchbar
@@ -68,7 +51,6 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
             y_expand: true,
             vertical: true,
             y_align: Clutter.ActorAlign.FILL,
-            style_class: 'left-box'
         });
 
         //Applications Box - Contains Favorites, Categories or programs
@@ -76,59 +58,58 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
             x_expand: true,
             y_expand: true,
             y_align: Clutter.ActorAlign.START,
-            style_class: 'apps-menu small-vfade left-scroll-area',
+            style_class: (this.disableFadeEffect ? '' : 'small-vfade'),
             overlay_scrollbars: true,
             reactive:true
         });
         let horizonalFlip = this._settings.get_boolean("enable-horizontal-flip");
 
         if(this._settings.get_enum('searchbar-default-bottom-location') === Constants.SearchbarLocation.TOP){
-            this.searchBox.actor.style = (horizonalFlip ? "margin: 0px 10px 0px 15px;" : "margin: 0px 15px 0px 10px;") + "padding: 0em 0em 0.75em 0em;" ;
-            this.appBox.add(this.searchBox.actor);
+            this.searchBox.add_style_class_name('arcmenu-search-top');
+            this.appBox.add_child(this.searchBox);
         }
-        this.appBox.add(this.applicationsScrollBox);
+        this.appBox.add_child(this.applicationsScrollBox);
         this.applicationsBox = new St.BoxLayout({ vertical: true });
         this.applicationsScrollBox.add_actor(this.applicationsBox);
 
-        this.navigateBox = new St.BoxLayout({ 
+        this.navigateBox = new St.BoxLayout({
             vertical: true,
-            x_expand: true, 
+            x_expand: true,
             y_expand: true,
             y_align: Clutter.ActorAlign.END
         });
         this.backButton = new MW.BackMenuItem(this);
-        this.navigateBox.add(this.backButton.actor);
-        this.appBox.add(this.navigateBox);
+        this.navigateBox.add_child(new MW.ArcMenuSeparator(Constants.SeparatorStyle.MEDIUM, Constants.SeparatorAlignment.HORIZONTAL));
+        this.navigateBox.add_child(this.backButton);
+        this.appBox.add_child(this.navigateBox);
         if(this._settings.get_enum('searchbar-default-bottom-location') === Constants.SearchbarLocation.BOTTOM){
-            this.searchBox.actor.style = (horizonalFlip ? "margin: 0px 10px 0px 15px;" : "margin: 0px 15px 0px 10px;") + "padding: 0.75em 0em 0.25em 0em;";
-            this.appBox.add(this.searchBox.actor);
+            this.searchBox.add_style_class_name('arcmenu-search-bottom');
+            this.appBox.add_child(this.searchBox);
         }
-        
+
         // The "Right Box"
         // Contains some useful shortcuts
         this.quickBox = new St.BoxLayout({
             vertical: true,
-            style: horizonalFlip ? "margin-right: 10px; margin-left: 5px;" : "margin-right: 5px; margin-left: 10px;"
+            y_expand: true,
+            y_align: Clutter.ActorAlign.FILL
         });
 
-        this.subMainBox.add(horizonalFlip ? this.appBox : this.quickBox);  
-        this.subMainBox.add(this._createVerticalSeparator());
-        this.subMainBox.add(horizonalFlip ? this.quickBox : this.appBox);
+        this.subMainBox.add_child(horizonalFlip ? this.appBox : this.quickBox);
+        let verticalSeparator = new MW.ArcMenuSeparator(Constants.SeparatorStyle.MEDIUM, Constants.SeparatorAlignment.VERTICAL);
+        this.subMainBox.add_child(verticalSeparator);
+        this.subMainBox.add_child(horizonalFlip ? this.quickBox : this.appBox);
 
         this.placesShortcuts= this._settings.get_value('directory-shortcuts-list').deep_unpack().length>0;
         this.softwareShortcuts = this._settings.get_value('application-shortcuts-list').deep_unpack().length>0;
 
-        if(!this._settings.get_boolean('disable-user-avatar')){
-          this.user = new MW.CurrentUserButton(this);
-          this._updateButtonSize(this.user);
-          this.quickBox.add(this.user.actor);
-          if (this.placesShortcuts || this.softwareShortcuts)
-            this.quickBox.add(this._createHorizontalSeparator(Constants.SEPARATOR_STYLE.SHORT));
-        }
-
         this.shortcutsBox = new St.BoxLayout({
             vertical: true,
-            style: "spacing: 3px; padding-bottom: 5px;"
+            x_expand: false,
+            y_expand: true,
+            x_align: Clutter.ActorAlign.START,
+            y_align: Clutter.ActorAlign.FILL,
+            style: "spacing: 5px; padding-bottom: 5px;"
         });
 
         this.shortcutsScrollBox = this._createScrollBox({
@@ -137,31 +118,32 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
             x_align: Clutter.ActorAlign.START,
             y_align: Clutter.ActorAlign.FILL,
             overlay_scrollbars: true,
-            style_class: 'small-vfade'
-        });    
-        this.shortcutsScrollBox.set_policy(Gtk.PolicyType.EXTERNAL, Gtk.PolicyType.EXTERNAL);
+            style_class: this.disableFadeEffect ? '' : 'small-vfade',
+        });
+        this.shortcutsScrollBox.set_policy(St.PolicyType.EXTERNAL, St.PolicyType.EXTERNAL);
         this.shortcutsScrollBox.add_actor(this.shortcutsBox);
-        this.quickBox.add(this.shortcutsScrollBox);
+        this.quickBox.add_child(this.shortcutsScrollBox);
 
         // Add place shortcuts to menu (Home,Documents,Downloads,Music,Pictures,Videos)
         this._displayPlaces();
 
         //check to see if should draw separator
-        if(this.placesShortcuts && this.softwareShortcuts)
-            this.shortcutsBox.add(this._createHorizontalSeparator(Constants.SEPARATOR_STYLE.SHORT));
-        
+        if(this.placesShortcuts && this.softwareShortcuts){
+            let separator = new MW.ArcMenuSeparator(Constants.SeparatorStyle.LONG, Constants.SeparatorAlignment.HORIZONTAL);
+            this.shortcutsBox.add_child(separator);
+        }
 
         //Add Application Shortcuts to menu (Software, Settings, Tweaks, Terminal)
-        let SOFTWARE_TRANSLATIONS = [_("Software"), _("Settings"), _("Tweaks"), _("Terminal"), _("Activities Overview"), _("Arc Menu Settings")];
+        let SOFTWARE_TRANSLATIONS = [_("Software"), _("Settings"), _("Tweaks"), _("Terminal"), _("Activities Overview"), _("ArcMenu Settings")];
         let applicationShortcuts = this._settings.get_value('application-shortcuts-list').deep_unpack();
         for(let i = 0; i < applicationShortcuts.length; i++){
             let applicationName = applicationShortcuts[i][0];
-            let shortcutButtonItem = new MW.ShortcutButtonItem(this, _(applicationName), applicationShortcuts[i][1], applicationShortcuts[i][2]);
-            this._updateButtonSize(shortcutButtonItem);
-            if(shortcutButtonItem.shouldShow)
-                this.shortcutsBox.add(shortcutButtonItem.actor);
+            let isContainedInCategory = false;
+            let shortcutMenuItem = new MW.ShortcutMenuItem(this, _(applicationName), applicationShortcuts[i][1], applicationShortcuts[i][2], Constants.DisplayType.BUTTON, isContainedInCategory);
+            if(shortcutMenuItem.shouldShow)
+                this.shortcutsBox.add_child(shortcutMenuItem);
         }
-        
+
         // Bottom Section for Power etc...
         this.actionsScrollBox = new St.ScrollView({
             x_expand: true,
@@ -169,122 +151,53 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
             y_align: Clutter.ActorAlign.END,
             x_align: Clutter.ActorAlign.CENTER
         });
-        this.actionsScrollBox.set_policy(Gtk.PolicyType.EXTERNAL, Gtk.PolicyType.EXTERNAL);
+        this.actionsScrollBox.set_policy(St.PolicyType.EXTERNAL, St.PolicyType.EXTERNAL);
         this.actionsScrollBox.clip_to_allocation = true;
 
-        //create new section for Power, Lock, Logout, Suspend Buttons
+        //create new section for Leave Button
         this.actionsBox = new St.BoxLayout({
             vertical: true,
             x_align: Clutter.ActorAlign.CENTER,
-            style: "spacing: 3px;"
+            style: "spacing: 5px;"
         });
-        this.actionsScrollBox.add_actor(this.actionsBox);  
-        let sessionButtonVisible = false;
-        
-        if(this._settings.get_boolean('show-logout-button')){
-            let logout = new MW.LogoutButton(this);
-            this._updateButtonSize(logout);
-            this.actionsBox.add(logout.actor);
-            sessionButtonVisible = true;
-        }  
-        if(this._settings.get_boolean('show-lock-button')){
-            let lock = new MW.LockButton(this);
-            this._updateButtonSize(lock);
-            this.actionsBox.add(lock.actor);
-            sessionButtonVisible = true;
-        }
-        if(this._settings.get_boolean('show-suspend-button')){
-            let suspend = new MW.SuspendButton(this);
-            this._updateButtonSize(suspend);
-            this.actionsBox.add(suspend.actor);
-            sessionButtonVisible = true;
-        }
-        if(this._settings.get_boolean('show-power-button')){
-            let power = new MW.PowerButton(this);
-            this._updateButtonSize(power);
-            this.actionsBox.add(power.actor);
-            sessionButtonVisible = true;
-        }     
-        if(sessionButtonVisible)
-            this.actionsBox.insert_child_at_index(this._createHorizontalSeparator(Constants.SEPARATOR_STYLE.SHORT), 0);
-        this.quickBox.add(this.actionsScrollBox);
+        this.actionsScrollBox.add_actor(this.actionsBox);
 
-        this.loadFavorites();
+        let powerDisplayStyle = this._settings.get_enum('power-display-style');
+        if(powerDisplayStyle === Constants.PowerDisplayStyle.IN_LINE)
+            this.leaveButton = new MW.PowerOptionsBox(this, 5, true);
+        else
+            this.leaveButton = new MW.LeaveButton(this);
+
+        this.actionsBox.add_child(this.leaveButton);
+
+        let separator = new MW.ArcMenuSeparator(Constants.SeparatorStyle.LONG, Constants.SeparatorAlignment.HORIZONTAL);
+        this.actionsBox.insert_child_at_index(separator, 0);
+        this.quickBox.add_child(this.actionsScrollBox);
+
+        this.updateWidth();
         this.loadCategories();
+        this.loadPinnedApps();
         this.setDefaultMenuView();
     }
 
-    _updateButtonSize(button){
-        button.actor.style = "border-radius: 22px; padding: 10px; min-height: 16px;";
-        button.actor.x_expand = false;
-        button.actor.x_align = Clutter.ActorAlign.CENTER;
-    }
-
-    updateStyle(){
-        let addStyle = this._settings.get_boolean('enable-custom-arc-menu');
-
-        if(this.user)
-            addStyle ? this.user.actor.add_style_class_name('arc-menu-action') : this.user.actor.remove_style_class_name('arc-menu-action');
-
-        if(this.shortcutsBox){
-            this.shortcutsBox.get_children().forEach((actor) => {
-                if(actor instanceof St.Button){
-                    addStyle ? actor.add_style_class_name('arc-menu-action') : actor.remove_style_class_name('arc-menu-action');
-                }
-            });
-        }
-
-        super.updateStyle();
+    updateWidth(setDefaultMenuView){
+        const widthAdjustment = this._settings.get_int("menu-width-adjustment");
+        let menuWidth = this.layoutProperties.DefaultMenuWidth + widthAdjustment;
+        //Set a 175px minimum limit for the menu width
+        menuWidth = Math.max(175, menuWidth);
+        this.applicationsScrollBox.style = `width: ${menuWidth}px;`;
+        this.layoutProperties.MenuWidth = menuWidth;
+        if(setDefaultMenuView)
+            this.setDefaultMenuView();
     }
 
     _displayPlaces() {
-        var SHORTCUT_TRANSLATIONS = [_("Home"), _("Documents"), _("Downloads"), _("Music"), _("Pictures"), _("Videos"), _("Computer"), _("Network")];
         let directoryShortcuts = this._settings.get_value('directory-shortcuts-list').deep_unpack();
         for (let i = 0; i < directoryShortcuts.length; i++) {
             let directory = directoryShortcuts[i];
-            let placeInfo, placeButtonItem;
-            if(directory[2]=="ArcMenu_Home"){
-                let homePath = GLib.get_home_dir();
-                placeInfo = new MW.PlaceInfo(Gio.File.new_for_path(homePath), _("Home"));
-                placeButtonItem = new MW.PlaceButtonItem(this, placeInfo);
-            }
-            else if(directory[2]=="ArcMenu_Computer"){
-                placeInfo = new PlaceDisplay.RootInfo();
-                placeInfo.icon = placeInfo.icon.to_string();
-                placeButtonItem = new MW.PlaceButtonItem(this, placeInfo);
-            }
-            else if(directory[2]=="ArcMenu_Network"){
-                placeInfo = new PlaceDisplay.PlaceInfo('network',Gio.File.new_for_uri('network:///'), _('Network'),'network-workgroup-symbolic');
-                placeInfo.icon = placeInfo.icon.to_string();
-                placeButtonItem = new MW.PlaceButtonItem(this, placeInfo);
-            }
-            else if(directory[2].startsWith("ArcMenu_")){
-                let path = directory[2].replace("ArcMenu_",'');
-
-                if(path === "Documents")
-                    path = imports.gi.GLib.UserDirectory.DIRECTORY_DOCUMENTS;
-                else if(path === "Downloads")
-                    path = imports.gi.GLib.UserDirectory.DIRECTORY_DOWNLOAD;
-                else if(path === "Music")
-                    path = imports.gi.GLib.UserDirectory.DIRECTORY_MUSIC;
-                else if(path === "Pictures")
-                    path = imports.gi.GLib.UserDirectory.DIRECTORY_PICTURES;
-                else if(path === "Videos")
-                    path = imports.gi.GLib.UserDirectory.DIRECTORY_VIDEOS;
-
-                path = GLib.get_user_special_dir(path);
-                if (path != null){
-                    placeInfo = new MW.PlaceInfo(Gio.File.new_for_path(path), _(directory[0]));
-                    placeButtonItem = new MW.PlaceButtonItem(this, placeInfo)
-                }
-            }
-            else{
-                let path = directory[2];
-                placeInfo = new MW.PlaceInfo(Gio.File.new_for_path(path), _(directory[0]), (directory[1] !== "ArcMenu_Folder") ? directory[1] : null);
-                placeButtonItem = new MW.PlaceButtonItem(this, placeInfo);
-            }
-            this._updateButtonSize(placeButtonItem);
-            this.shortcutsBox.add_actor(placeButtonItem.actor);
+            let isContainedInCategory = false;
+            let placeMenuItem = this.createMenuItem(directory, Constants.DisplayType.BUTTON, isContainedInCategory);
+            this.shortcutsBox.add_child(placeMenuItem);
         }
     }
 
@@ -298,7 +211,7 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
             let categoryEnum = extraCategories[i][0];
             let shouldShow = extraCategories[i][1];
             if(shouldShow){
-                let categoryMenuItem = new MW.CategoryMenuItem(this, categoryEnum);
+                let categoryMenuItem = new MW.CategoryMenuItem(this, categoryEnum, Constants.DisplayType.LIST);
                 this.categoryDirectories.set(categoryEnum, categoryMenuItem);
             }
         }
@@ -306,21 +219,21 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
         super.loadCategories();
     }
 
-    displayFavorites(){
-        super.displayFavorites();
+    displayPinnedApps(){
+        super.displayPinnedApps();
         this.activeCategoryType = Constants.CategoryType.PINNED_APPS;
-        this.backButton.actor.show();
+        this.navigateBox.show();
     }
 
     displayAllApps(){
-        this.backButton.actor.hide();
+        this.navigateBox.hide();
         super.displayAllApps()
     }
 
     displayCategories(){
         super.displayCategories();
         this.activeCategoryType = Constants.CategoryType.CATEGORIES_LIST;
-        this.backButton.actor.hide();
+        this.navigateBox.hide();
     }
 
     setDefaultMenuView(){
@@ -335,15 +248,23 @@ var createMenu = class extends BaseMenuLayout.BaseLayout{
 
     displayCategoryAppList(appList, category){
         super.displayCategoryAppList(appList, category);
-        this.activeCategoryType = Constants.CategoryType.CATEGORY_APP_LIST;
-        this.backButton.actor.show();
+        this.navigateBox.show();
     }
 
-    _onSearchBoxChanged(searchBox, searchString){  
-        super._onSearchBoxChanged(searchBox, searchString);  
-        if(!searchBox.isEmpty()){  
-            this.backButton.actor.hide();
-            this.activeCategoryType = Constants.CategoryType.SEARCH_RESULTS;   
-        }            
+    displayRecentFiles(){
+        super.displayRecentFiles();
+        this.activeCategoryType = Constants.CategoryType.RECENT_FILES;
+        this.navigateBox.show();
+    }
+
+    _onSearchBoxChanged(searchBox, searchString){
+        super._onSearchBoxChanged(searchBox, searchString);
+        if(searchBox.isEmpty()){
+            this.navigateBox.hide();
+        }
+        else if(!searchBox.isEmpty()){
+            this.navigateBox.show();
+            this.activeCategoryType = Constants.CategoryType.SEARCH_RESULTS;
+        }
     }
 }
