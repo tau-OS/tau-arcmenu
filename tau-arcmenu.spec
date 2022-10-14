@@ -4,7 +4,7 @@ Summary:        ArcMenu is a Dynamic / Traditional / Modern Extension Menu for G
 Name:           tau-arcmenu
 # This should match the version in metadata.json
 Version:        39
-Release:        2
+Release:        3
 License:        GPLv2+
 URL:            https://github.com/ArcMenu/gnome-shell-extension-arcmenu
 Source0:        %{name}-%{version}.tar.gz
@@ -22,7 +22,6 @@ A Dynamic, Traditional, Modern Menu for GNOME
 Features modifications for tauOS.
 
 %install
-make
 make install
 
 # Cleanup crap.
