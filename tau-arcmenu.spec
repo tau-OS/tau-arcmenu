@@ -7,7 +7,7 @@ Version:        39
 Release:        3
 License:        GPLv2+
 URL:            https://github.com/ArcMenu/gnome-shell-extension-arcmenu
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/tau-OS/tau-arcmenu-main/archive/refs/heads/main.zip
 BuildArch:      noarch
 BuildRequires:  make
 BuildRequires:  gettext
@@ -20,6 +20,9 @@ Requires:       gnome-shell-extension-common
 A Dynamic, Traditional, Modern Menu for GNOME
 
 Features modifications for tauOS.
+
+%prep
+%setup -q -n tau-arcmenu-main
 
 %install
 make install
