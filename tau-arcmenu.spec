@@ -7,7 +7,7 @@ Version:        39
 Release:        3
 License:        GPLv2+
 URL:            https://github.com/ArcMenu/gnome-shell-extension-arcmenu
-Source0:        https://github.com/tau-OS/tau-arcmenu-main/archive/refs/heads/main.zip
+Source0:        https://github.com/tau-OS/tau-arcmenu/archive/refs/heads/master.zip
 BuildArch:      noarch
 BuildRequires:  make
 BuildRequires:  gettext
@@ -22,13 +22,13 @@ A Dynamic, Traditional, Modern Menu for GNOME
 Features modifications for tauOS.
 
 %prep
-%setup -q -n tau-arcmenu-main
+%autosetup -n tau-arcmenu-master -Sgit
 
 %install
-make install
+%make_install UUID=arcmenu@tauos.co INSTALLNAME=arcmenu@tauos.co
 
 # Cleanup crap.
-%{__rm} -fr %{buildroot}%{extdir}/{COPYING*,README*,locale,schemas}
+# %{__rm} -fr %{buildroot}%{extdir}/{COPYING*,README*,locale,schemas}
 
 # Create manifest for i18n.
 %find_lang %{name} --all-name
@@ -37,8 +37,11 @@ make install
 %license COPYING
 %doc README.md
 %{extdir}
-%{_datadir}/glib-2.0/schemas/*gschema.*
+# %{_datadir}/glib-2.0/schemas/*gschema.*
 
 %changelog
+* Sun Oct 23 2022 Cappy Ishihara <cappy@cappuchino.xyz> - 39-3
+- Rebuilt package properly
+
 * Thu Aug 11 2022 Lains <lainsce@airmail.cc> - 48.2-1
 - Initial Release
